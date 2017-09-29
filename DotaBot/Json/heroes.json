@@ -1,0 +1,3158 @@
+[{
+    "basedmg": "23 - 25",
+    "StrGain": "1.85",
+    "IntGain": "1.4",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Melee": "150"
+    },
+    "amp1": "0.9%",
+    "Mana": "230",
+    "magicres": "25%",
+    "Damage": "46-48",
+    "Agility": "23",
+    "Armor": "4",
+    "Strength": "20",
+    "BaseSpeed": "310",
+    "GameName": "Phantom Assassin",
+    "Health": "600",
+    "Intelligence": "15",
+    "theattributethatistheirmainone": "agi",
+    "AgiGain": "3.15",
+    "basearmor": "4.22",
+    "attacktime": "1.7",
+    "TrueName": "phantom_assassin",
+    "dota_name": "Mortred"
+}, {
+    "basedmg": "24 - 28",
+    "StrGain": "2.5",
+    "IntGain": "1.6",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Melee": "150"
+    },
+    "amp1": "1.1%",
+    "Mana": "266",
+    "magicres": "25%",
+    "Damage": "49-53",
+    "Agility": "20",
+    "Armor": "2",
+    "Strength": "25",
+    "BaseSpeed": "290",
+    "GameName": "Axe",
+    "Health": "700",
+    "Intelligence": "18",
+    "theattributethatistheirmainone": "str",
+    "AgiGain": "2.2",
+    "basearmor": "1.8",
+    "attacktime": "1.7",
+    "TrueName": "axe",
+    "dota_name": "Mogul Khan"
+}, {
+    "basedmg": "36 - 41",
+    "StrGain": "3",
+    "IntGain": "1.55",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Melee": "150"
+    },
+    "amp1": "1.1%",
+    "Mana": "254",
+    "magicres": "25%",
+    "Damage": "58-63",
+    "Agility": "16",
+    "Armor": "3",
+    "Strength": "25",
+    "BaseSpeed": "305",
+    "GameName": "Lycan",
+    "Health": "640",
+    "Intelligence": "17",
+    "theattributethatistheirmainone": "str",
+    "AgiGain": "1",
+    "basearmor": "3.24",
+    "attacktime": "1.7",
+    "TrueName": "lycan",
+    "dota_name": "Banehallow"
+}, {
+    "basedmg": "25 - 41",
+    "StrGain": "2.6",
+    "IntGain": "1.8",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Melee": "150"
+    },
+    "amp1": "1%",
+    "Mana": "242",
+    "magicres": "25%",
+    "Damage": "47-63",
+    "Agility": "19",
+    "Armor": "3",
+    "Strength": "22",
+    "BaseSpeed": "295",
+    "GameName": "Sand King",
+    "Health": "640",
+    "Intelligence": "16",
+    "theattributethatistheirmainone": "str",
+    "AgiGain": "2.1",
+    "basearmor": "2.66",
+    "attacktime": "1.7",
+    "TrueName": "sand_king",
+    "dota_name": "Crixalis"
+}, {
+    "basedmg": "41 - 45",
+    "StrGain": "2.2",
+    "IntGain": "1.9",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Melee": "150"
+    },
+    "amp1": "1%",
+    "Mana": "242",
+    "magicres": "25%",
+    "Damage": "64-68",
+    "Agility": "18",
+    "Armor": "5",
+    "Strength": "23",
+    "BaseSpeed": "310",
+    "GameName": "Beastmaster",
+    "Health": "660",
+    "Intelligence": "16",
+    "theattributethatistheirmainone": "str",
+    "AgiGain": "1.6",
+    "basearmor": "4.52",
+    "attacktime": "1.7",
+    "TrueName": "beastmaster",
+    "dota_name": "Karroch"
+}, {
+    "basedmg": "26 - 36",
+    "StrGain": "2.2",
+    "IntGain": "2.8",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Melee": "150"
+    },
+    "amp1": "0.9%",
+    "Mana": "218",
+    "magicres": "25%",
+    "Damage": "48-58",
+    "Agility": "17",
+    "Armor": "3",
+    "Strength": "22",
+    "BaseSpeed": "290",
+    "GameName": "Bristleback",
+    "Health": "640",
+    "Intelligence": "14",
+    "theattributethatistheirmainone": "str",
+    "AgiGain": "1.8",
+    "basearmor": "3.38",
+    "attacktime": "1.8",
+    "TrueName": "bristleback",
+    "dota_name": "Rigwarl"
+}, {
+    "basedmg": "23 - 25",
+    "StrGain": "2.1",
+    "IntGain": "1.8",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Ranged": "575"
+    },
+    "amp1": "0.9%",
+    "Mana": "230",
+    "magicres": "25%",
+    "Damage": "44-46",
+    "Agility": "21",
+    "Armor": "2",
+    "Strength": "20",
+    "BaseSpeed": "285",
+    "GameName": "Viper",
+    "Health": "600",
+    "Intelligence": "15",
+    "theattributethatistheirmainone": "agi",
+    "AgiGain": "2.9",
+    "basearmor": "1.94",
+    "attacktime": "1.7",
+    "TrueName": "viper",
+    "dota_name": "Netherdrake"
+}, {
+    "basedmg": "19 - 27",
+    "StrGain": "1.2",
+    "IntGain": "4.5",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Ranged": "600"
+    },
+    "amp1": "1.6%",
+    "Mana": "362",
+    "magicres": "25%",
+    "Damage": "45-53",
+    "Agility": "16",
+    "Armor": "1",
+    "Strength": "17",
+    "BaseSpeed": "330",
+    "GameName": "Pugna",
+    "Health": "540",
+    "Intelligence": "26",
+    "theattributethatistheirmainone": "int",
+    "AgiGain": "1",
+    "basearmor": "1.24",
+    "attacktime": "1.7",
+    "TrueName": "pugna",
+    "dota_name": "Oblivion"
+}, {
+    "basedmg": "24 - 34",
+    "StrGain": "2.9",
+    "IntGain": "1.8",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Melee": "150"
+    },
+    "amp1": "1.%",
+    "Mana": "242",
+    "magicres": "25%",
+    "Damage": "46-55",
+    "Agility": "12",
+    "Armor": "3",
+    "Strength": "22",
+    "BaseSpeed": "310",
+    "GameName": "Earthshaker",
+    "Health": "640",
+    "Intelligence": "16",
+    "theattributethatistheirmainone": "str",
+    "AgiGain": "1.4",
+    "basearmor": "2.68",
+    "attacktime": "1.7",
+    "TrueName": "earthshaker",
+    "dota_name": "Raigor Stonehoof"
+}, {
+    "basedmg": "25 - 36",
+    "StrGain": "1.7",
+    "IntGain": "2.4",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Ranged": "550"
+    },
+    "amp1": "1.6%",
+    "Mana": "350",
+    "magicres": "25%",
+    "Damage": "53-64",
+    "Agility": "22",
+    "Armor": "2",
+    "Strength": "15",
+    "BaseSpeed": "295",
+    "GameName": "Puck",
+    "Health": "500",
+    "Intelligence": "25",
+    "theattributethatistheirmainone": "int",
+    "AgiGain": "1.7",
+    "basearmor": "2.08",
+    "attacktime": "1.7",
+    "TrueName": "puck",
+    "dota_name": "Faerie Dragon"
+}, {
+    "basedmg": "27 - 33",
+    "StrGain": "3.2",
+    "IntGain": "1.5",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Melee": "150"
+    },
+    "amp1": "0.9%",
+    "Mana": "218",
+    "magicres": "25%",
+    "Damage": "52-58",
+    "Agility": "14",
+    "Armor": "1",
+    "Strength": "25",
+    "BaseSpeed": "280",
+    "GameName": "Pudge",
+    "Health": "700",
+    "Intelligence": "14",
+    "theattributethatistheirmainone": "str",
+    "AgiGain": "1.5",
+    "basearmor": "0.96",
+    "attacktime": "1.7",
+    "TrueName": "pudge",
+    "dota_name": "Butcher"
+}, {
+    "basedmg": "24 - 33",
+    "StrGain": "1.8",
+    "IntGain": "1.8",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Melee": "150"
+    },
+    "amp1": "1.6%",
+    "Mana": "350",
+    "magicres": "25%",
+    "Damage": "49-58",
+    "Agility": "11",
+    "Armor": "2",
+    "Strength": "25",
+    "BaseSpeed": "295",
+    "GameName": "Alchemist",
+    "Health": "700",
+    "Intelligence": "25",
+    "theattributethatistheirmainone": "str",
+    "AgiGain": "1.2",
+    "basearmor": "1.54",
+    "attacktime": "1.7 ",
+    "TrueName": "alchemist",
+    "dota_name": "Razzil Darkbrew"
+}, {
+    "basedmg": "22 - 32",
+    "StrGain": "1.5",
+    "IntGain": "3",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Ranged": "480"
+    },
+    "amp1": "1.5%",
+    "Mana": "338",
+    "magicres": "25%",
+    "Damage": "46-56",
+    "Agility": "22",
+    "Armor": "5",
+    "Strength": "19",
+    "BaseSpeed": "285",
+    "GameName": "Storm Spirit",
+    "Health": "580",
+    "Intelligence": "24",
+    "theattributethatistheirmainone": "int",
+    "AgiGain": "1.8",
+    "basearmor": "5.08",
+    "attacktime": "1.7",
+    "TrueName": "storm_spirit",
+    "dota_name": "Raijin Thunderkeg"
+}, {
+    "basedmg": "14 - 18",
+    "StrGain": "2.4",
+    "IntGain": "2.5",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1200"
+    },
+    "attackrange": {
+        "Ranged": "375"
+    },
+    "amp1": "1.5%",
+    "Mana": "338",
+    "magicres": "25%",
+    "Damage": "38-42",
+    "Agility": "15",
+    "Armor": "2",
+    "Strength": "23",
+    "BaseSpeed": "290",
+    "GameName": "Batrider",
+    "Health": "660",
+    "Intelligence": "24",
+    "theattributethatistheirmainone": "int",
+    "AgiGain": "1.5",
+    "basearmor": "2.1",
+    "attacktime": "1.7",
+    "TrueName": "batrider"
+}, {
+    "basedmg": "14 - 25",
+    "StrGain": "1.6",
+    "IntGain": "1.4",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Ranged": "625"
+    },
+    "amp1": "0.9%",
+    "Mana": "230",
+    "magicres": "25%",
+    "Damage": "40-51",
+    "Agility": "26",
+    "Armor": "1",
+    "Strength": "17",
+    "BaseSpeed": "290",
+    "GameName": "Drow Ranger",
+    "Health": "540",
+    "Intelligence": "15",
+    "theattributethatistheirmainone": "agi",
+    "AgiGain": "1.9",
+    "basearmor": "0.64",
+    "attacktime": "1.7",
+    "TrueName": "drow_ranger",
+    "dota_name": "Traxex"
+}, {
+    "basedmg": "30 - 34",
+    "StrGain": "2",
+    "IntGain": "2.1",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Melee": "150"
+    },
+    "amp1": "1.1%",
+    "Mana": "266",
+    "magicres": "25%",
+    "Damage": "49-53",
+    "Agility": "19",
+    "Armor": "4",
+    "Strength": "18",
+    "BaseSpeed": "305",
+    "GameName": "Nyx Assassin",
+    "Health": "560",
+    "Intelligence": "18",
+    "theattributethatistheirmainone": "agi",
+    "AgiGain": "2.2",
+    "basearmor": "3.66",
+    "attacktime": "1.7",
+    "TrueName": "nyx_assassin"
+}, {
+    "basedmg": "22 - 28",
+    "StrGain": "2",
+    "IntGain": "2.2",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Ranged": "500"
+    },
+    "amp1": "1.9%",
+    "Mana": "410",
+    "magicres": "25%",
+    "Damage": "52-58",
+    "Agility": "13",
+    "Armor": "4",
+    "Strength": "17",
+    "BaseSpeed": "305",
+    "GameName": "Tinker",
+    "Health": "540",
+    "Intelligence": "30",
+    "theattributethatistheirmainone": "int",
+    "AgiGain": "1.2",
+    "basearmor": "3.82",
+    "attacktime": "1.7",
+    "TrueName": "tinker",
+    "dota_name": "Boush"
+}, {
+    "basedmg": "13 - 31",
+    "StrGain": "1.5",
+    "IntGain": "3.2",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Ranged": "670"
+    },
+    "amp1": "1.7%",
+    "Mana": "374",
+    "magicres": "25%",
+    "Damage": "40-58",
+    "Agility": "16",
+    "Armor": "1",
+    "Strength": "18",
+    "BaseSpeed": "295",
+    "GameName": "Lina",
+    "Health": "560",
+    "Intelligence": "27",
+    "theattributethatistheirmainone": "int",
+    "AgiGain": "1.5",
+    "basearmor": "1.24",
+    "attacktime": "1.6",
+    "TrueName": "lina",
+    "dota_name": "Slayer"
+}, {
+    "basedmg": "17 - 35",
+    "StrGain": "2.2",
+    "IntGain": "1",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Melee": "150",
+        "Ranged": "500"
+    },
+    "amp1": "0.8%",
+    "Mana": "206",
+    "magicres": "25%",
+    "Damage": "38-56 ",
+    "Agility": "21",
+    "Armor": "2",
+    "Strength": "20",
+    "BaseSpeed": "300",
+    "GameName": "Troll Warlord",
+    "Health": "600",
+    "Intelligence": "13",
+    "theattributethatistheirmainone": "agi",
+    "AgiGain": "2.75",
+    "basearmor": "1.94",
+    "attacktime": "1.7",
+    "TrueName": "troll_warlord",
+    "dota_name": "Jah'rakal"
+}, {
+    "basedmg": "4 - 13",
+    "StrGain": "2",
+    "IntGain": "1.1",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Ranged": "350"
+    },
+    "amp1": "1.1%",
+    "Mana": "254",
+    "magicres": "25%",
+    "Damage": "28-37",
+    "Agility": "24",
+    "Armor": "1",
+    "Strength": "19",
+    "BaseSpeed": "285",
+    "GameName": "Morphling",
+    "Health": "580",
+    "Intelligence": "17",
+    "theattributethatistheirmainone": "agi",
+    "AgiGain": "3.7",
+    "basearmor": "1.36",
+    "attacktime": "1.6",
+    "TrueName": "morphling"
+}, {
+    "basedmg": "21 - 30",
+    "StrGain": "2.4",
+    "IntGain": "1.5",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Ranged": "400"
+    },
+    "amp1": "1.1%",
+    "Mana": "266",
+    "magicres": "25%",
+    "Damage": "42-51",
+    "Agility": "15",
+    "Armor": "1",
+    "Strength": "21",
+    "BaseSpeed": "300",
+    "GameName": "Huskar",
+    "Health": "620",
+    "Intelligence": "18",
+    "theattributethatistheirmainone": "str",
+    "AgiGain": "1.4",
+    "basearmor": "1.1",
+    "attacktime": "1.6",
+    "TrueName": "huskar",
+    "dota_name": "Sacred Warrior"
+}, {
+    "basedmg": "35 - 43",
+    "StrGain": "2.1",
+    "IntGain": "2.5",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Melee": "150"
+    },
+    "amp1": "1.7%",
+    "Mana": "374",
+    "magicres": "25%",
+    "Damage": "57-65",
+    "Agility": "10",
+    "Armor": "3",
+    "Strength": "22",
+    "BaseSpeed": "310",
+    "GameName": "Undying",
+    "Health": "640",
+    "Intelligence": "27",
+    "theattributethatistheirmainone": "str",
+    "AgiGain": "0.8",
+    "basearmor": "3.4",
+    "attacktime": "1.7",
+    "TrueName": "undying",
+    "dota_name": "Almighty Dirge"
+}, {
+    "basedmg": "7 - 9",
+    "StrGain": "2",
+    "IntGain": "2.9",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Ranged": "700"
+    },
+    "amp1": "1.4%",
+    "Mana": "314",
+    "magicres": "25%",
+    "Damage": "29 - 31",
+    "Agility": "14",
+    "Armor": "7",
+    "Strength": "17",
+    "BaseSpeed": "270",
+    "GameName": "Techies",
+    "Health": "540",
+    "Intelligence": "22",
+    "theattributethatistheirmainone": "int",
+    "AgiGain": "1.3",
+    "basearmor": "6.96",
+    "attacktime": "1.7",
+    "TrueName": "techies",
+    "dota_name": "Squee, Spleen, and Spoon"
+}, {
+    "basedmg": "38 - 42",
+    "StrGain": "2.8",
+    "IntGain": "1.6",
+    "sightrange": {
+        "Night": "1800",
+        "Day": "1200"
+    },
+    "attackrange": {
+        "Melee": "150"
+    },
+    "amp1": "1.%",
+    "Mana": "242",
+    "magicres": "25%",
+    "Damage": "61-65",
+    "Agility": "18",
+    "Armor": "6",
+    "Strength": "23",
+    "BaseSpeed": "295",
+    "GameName": "Night Stalker",
+    "Health": "660",
+    "Intelligence": "16",
+    "theattributethatistheirmainone": "str",
+    "AgiGain": "2.25",
+    "basearmor": "5.52",
+    "attacktime": "1.7",
+    "TrueName": "night_stalker",
+    "dota_name": "Balanar"
+}, {
+    "basedmg": "22 - 34",
+    "StrGain": "2.5",
+    "IntGain": "2.6",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Ranged": "600"
+    },
+    "amp1": "1.4%",
+    "Mana": "314",
+    "magicres": "25%",
+    "Damage": "44-56",
+    "Agility": "17",
+    "Armor": "1",
+    "Strength": "15",
+    "BaseSpeed": "295",
+    "GameName": "Windranger",
+    "Health": "500",
+    "Intelligence": "22",
+    "theattributethatistheirmainone": "int",
+    "AgiGain": "1.4",
+    "basearmor": "1.38",
+    "attacktime": "1.5",
+    "TrueName": "windrunner",
+    "dota_name": "Lyralei"
+}, {
+    "basedmg": "30 - 36",
+    "StrGain": "2.2",
+    "IntGain": "1.8",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Melee": "300"
+    },
+    "amp1": "1.3%",
+    "Mana": "290",
+    "magicres": "25%",
+    "Damage": "52-58",
+    "Agility": "22",
+    "Armor": "0",
+    "Strength": "18",
+    "BaseSpeed": "305",
+    "GameName": "Monkey King",
+    "Health": "560",
+    "Intelligence": "20",
+    "theattributethatistheirmainone": "agi",
+    "AgiGain": "3.2",
+    "basearmor": "0.1",
+    "attacktime": "1.7",
+    "TrueName": "monkey_king",
+    "dota_name": "Sun Wukong"
+}, {
+    "basedmg": "24 - 38",
+    "StrGain": "1.8",
+    "IntGain": "2.9",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Ranged": "600"
+    },
+    "amp1": "1.6%",
+    "Mana": "350",
+    "magicres": "25%",
+    "Damage": "49-63",
+    "Agility": "18",
+    "Armor": "4",
+    "Strength": "19",
+    "BaseSpeed": "295",
+    "GameName": "Nature's Prophet",
+    "Health": "580",
+    "Intelligence": "25",
+    "theattributethatistheirmainone": "int",
+    "AgiGain": "1.9",
+    "basearmor": "3.52",
+    "attacktime": "1.7",
+    "TrueName": "furion",
+    "dota_name": "Furion"
+}, {
+    "basedmg": "33 - 39",
+    "StrGain": "1.8",
+    "IntGain": "1.5",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Melee": "150"
+    },
+    "amp1": "0.9%",
+    "Mana": "230",
+    "magicres": "25%",
+    "Damage": "56-62",
+    "Agility": "23",
+    "Armor": "3",
+    "Strength": "23",
+    "BaseSpeed": "300",
+    "GameName": "Faceless Void",
+    "Health": "660",
+    "Intelligence": "15",
+    "theattributethatistheirmainone": "agi",
+    "AgiGain": "2.65",
+    "basearmor": "3.22",
+    "attacktime": "1.7",
+    "TrueName": "faceless_void",
+    "dota_name": "Darkterror"
+}, {
+    "basedmg": "23 - 27",
+    "StrGain": "2",
+    "IntGain": "1.9",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Melee": "150"
+    },
+    "amp1": "1.%",
+    "Mana": "242",
+    "magicres": "25%",
+    "Damage": "46-50",
+    "Agility": "23",
+    "Armor": "3",
+    "Strength": "19",
+    "BaseSpeed": "290",
+    "GameName": "Spectre",
+    "Health": "580",
+    "Intelligence": "16",
+    "theattributethatistheirmainone": "agi",
+    "AgiGain": "1.8",
+    "basearmor": "3.22",
+    "attacktime": "1.7",
+    "TrueName": "spectre",
+    "dota_name": "Mercurial"
+}, {
+    "basedmg": "31 - 41",
+    "StrGain": "2.9",
+    "IntGain": "1.8",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Ranged": "500"
+    },
+    "amp1": "1.1%",
+    "Mana": "266",
+    "magicres": "25%",
+    "Damage": "48-58",
+    "Agility": "12",
+    "Armor": "0",
+    "Strength": "17",
+    "BaseSpeed": "285",
+    "GameName": "Phoenix",
+    "Health": "540",
+    "Intelligence": "18",
+    "theattributethatistheirmainone": "str",
+    "AgiGain": "1.3",
+    "basearmor": "0",
+    "attacktime": "1.7",
+    "TrueName": "phoenix"
+}, {
+    "basedmg": "15 - 21",
+    "StrGain": "1.7",
+    "IntGain": "2.6",
+    "sightrange": {
+        "Night": "1100",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Ranged": "550"
+    },
+    "amp1": "0.9%",
+    "Mana": "230",
+    "magicres": "25%",
+    "Damage": "36-42",
+    "Agility": "21",
+    "Armor": "2",
+    "Strength": "16",
+    "BaseSpeed": "290",
+    "GameName": "Sniper",
+    "Health": "520",
+    "Intelligence": "15",
+    "theattributethatistheirmainone": "agi",
+    "AgiGain": "2.5",
+    "basearmor": "1.94",
+    "attacktime": "1.7",
+    "TrueName": "sniper",
+    "dota_name": "Kardel Sharpeye"
+}, {
+    "basedmg": "29 - 35",
+    "StrGain": "2.1",
+    "IntGain": "2.1",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Ranged": "400"
+    },
+    "amp1": "1.4%",
+    "Mana": "314",
+    "magicres": "25%",
+    "Damage": "51-57",
+    "Agility": "22",
+    "Armor": "4",
+    "Strength": "22",
+    "BaseSpeed": "310",
+    "GameName": "Bane",
+    "Health": "640",
+    "Intelligence": "22",
+    "theattributethatistheirmainone": "int",
+    "AgiGain": "2.1",
+    "basearmor": "4.08",
+    "attacktime": "1.7",
+    "TrueName": "bane",
+    "dota_name": "Atropos"
+}, {
+    "basedmg": "24 - 36",
+    "StrGain": "1.9",
+    "IntGain": "3",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Ranged": "600"
+    },
+    "amp1": "1.4%",
+    "Mana": "326",
+    "magicres": "25%",
+    "Damage": "47-59",
+    "Agility": "14",
+    "Armor": "3",
+    "Strength": "17",
+    "BaseSpeed": "310",
+    "GameName": "Death Prophet",
+    "Health": "540",
+    "Intelligence": "23",
+    "theattributethatistheirmainone": "int",
+    "AgiGain": "1.4",
+    "basearmor": "2.96",
+    "attacktime": "1.7",
+    "TrueName": "death_prophet",
+    "dota_name": "Krobelus"
+}, {
+    "basedmg": "19 - 29",
+    "StrGain": "1.4",
+    "IntGain": "2.6",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Ranged": "600"
+    },
+    "amp1": "1.6%",
+    "Mana": "350",
+    "magicres": "25%",
+    "Damage": "44-54",
+    "Agility": "20",
+    "Armor": "2",
+    "Strength": "18",
+    "BaseSpeed": "295",
+    "GameName": "Ancient Apparition",
+    "Health": "560",
+    "Intelligence": "25",
+    "theattributethatistheirmainone": "int",
+    "AgiGain": "2.2",
+    "basearmor": "1.8",
+    "attacktime": "1.7",
+    "TrueName": "ancient_apparition",
+    "dota_name": "Kaldr"
+}, {
+    "basedmg": "29 - 59",
+    "StrGain": "2.9",
+    "IntGain": "1.2",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Melee": "150"
+    },
+    "amp1": "1%",
+    "Mana": "242",
+    "magicres": "25%",
+    "Damage": "49-79",
+    "Agility": "14",
+    "Armor": "4",
+    "Strength": "20",
+    "BaseSpeed": "325",
+    "GameName": "Chaos Knight",
+    "Health": "600",
+    "Intelligence": "16",
+    "theattributethatistheirmainone": "str",
+    "AgiGain": "2.1",
+    "basearmor": "3.96",
+    "attacktime": "1.7",
+    "TrueName": "chaos_knight"
+}, {
+    "basedmg": "12 - 26",
+    "StrGain": "2.6",
+    "IntGain": "1.5",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Ranged": "400"
+    },
+    "amp1": "0.8%",
+    "Mana": "206",
+    "magicres": "25%",
+    "Damage": "39-53",
+    "Agility": "27",
+    "Armor": "4",
+    "Strength": "18",
+    "BaseSpeed": "300",
+    "GameName": "Vengeful Spirit",
+    "Health": "560",
+    "Intelligence": "13",
+    "theattributethatistheirmainone": "agi",
+    "AgiGain": "3.3",
+    "basearmor": "3.78",
+    "attacktime": "1.7",
+    "TrueName": "vengefulspirit",
+    "dota_name": "Shendelzare"
+}, {
+    "basedmg": "14 - 32",
+    "StrGain": "1.85",
+    "IntGain": "3.4",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Ranged": "550"
+    },
+    "amp1": "1.7%",
+    "Mana": "374",
+    "magicres": "25%",
+    "Damage": "41-59",
+    "Agility": "21",
+    "Armor": "2",
+    "Strength": "16",
+    "BaseSpeed": "305",
+    "GameName": "Dazzle",
+    "Health": "520",
+    "Intelligence": "27",
+    "theattributethatistheirmainone": "int",
+    "AgiGain": "1.7",
+    "basearmor": "1.94",
+    "attacktime": "1.7",
+    "TrueName": "dazzle",
+    "dota_name": "Shadow Priest"
+}, {
+    "basedmg": "33 - 41",
+    "StrGain": "1.6",
+    "IntGain": "1.9",
+    "sightrange": {
+        "Night": "1800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Melee": "150"
+    },
+    "amp1": "1.%",
+    "Mana": "242",
+    "magicres": "25%",
+    "Damage": "54-62",
+    "Agility": "21",
+    "Armor": "2",
+    "Strength": "20",
+    "BaseSpeed": "300",
+    "GameName": "Slark",
+    "Health": "600",
+    "Intelligence": "16",
+    "theattributethatistheirmainone": "agi",
+    "AgiGain": "1.5",
+    "basearmor": "1.94",
+    "attacktime": "1.7",
+    "TrueName": "slark",
+    "dota_name": "Nightcrawler"
+}, {
+    "basedmg": "31 - 41",
+    "StrGain": "2.8",
+    "IntGain": "1.8",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Melee": "150"
+    },
+    "amp1": "1.1%",
+    "Mana": "254",
+    "magicres": "25%",
+    "Damage": "53-63",
+    "Agility": "15",
+    "Armor": "5",
+    "Strength": "22",
+    "BaseSpeed": "305",
+    "GameName": "Omniknight",
+    "Health": "640",
+    "Intelligence": "17",
+    "theattributethatistheirmainone": "str",
+    "AgiGain": "1.75",
+    "basearmor": "5.1",
+    "attacktime": "1.7",
+    "TrueName": "omniknight",
+    "dota_name": "Purist Thunderwrath"
+}, {
+    "basedmg": "25 - 33",
+    "StrGain": "2.3",
+    "IntGain": "2.8",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Ranged": "400"
+    },
+    "amp1": "1.8%",
+    "Mana": "386",
+    "magicres": "25%",
+    "Damage": "53-61",
+    "Agility": "10",
+    "Armor": "2",
+    "Strength": "25",
+    "BaseSpeed": "290",
+    "GameName": "Jakiro",
+    "Health": "700",
+    "Intelligence": "28",
+    "theattributethatistheirmainone": "int",
+    "AgiGain": "1.2",
+    "basearmor": "2.4",
+    "attacktime": "1.7",
+    "TrueName": "jakiro",
+    "dota_name": "Twin Head Dragon"
+}, {
+    "basedmg": "30 - 34",
+    "StrGain": "2",
+    "IntGain": "1.8",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Melee": "150"
+    },
+    "amp1": "1.3%",
+    "Mana": "290",
+    "magicres": "25%",
+    "Damage": "52-56",
+    "Agility": "22",
+    "Armor": "1",
+    "Strength": "19",
+    "BaseSpeed": "310",
+    "GameName": "Ember Spirit",
+    "Health": "580",
+    "Intelligence": "20",
+    "theattributethatistheirmainone": "agi",
+    "AgiGain": "1.8",
+    "basearmor": "1.08",
+    "attacktime": "1.7 ",
+    "TrueName": "ember_spirit",
+    "dota_name": "Xin"
+}, {
+    "basedmg": "30 - 40",
+    "StrGain": "3",
+    "IntGain": "1.75",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Melee": "150"
+    },
+    "amp1": "0.9%",
+    "Mana": "230",
+    "magicres": "25%",
+    "Damage": "52-62",
+    "Agility": "18",
+    "Armor": "2",
+    "Strength": "25",
+    "BaseSpeed": "315",
+    "GameName": "Lifestealer",
+    "Health": "700",
+    "Intelligence": "15",
+    "theattributethatistheirmainone": "str",
+    "AgiGain": "1.9",
+    "basearmor": "1.52",
+    "attacktime": "1.85",
+    "TrueName": "life_stealer",
+    "dota_name": "N'aix"
+}, {
+    "basedmg": "19 - 21",
+    "StrGain": "1.85",
+    "IntGain": "1.8",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Ranged": "450"
+    },
+    "amp1": "1.1%",
+    "Mana": "254",
+    "magicres": "25%",
+    "Damage": "41-43",
+    "Agility": "22",
+    "Armor": "3",
+    "Strength": "18",
+    "BaseSpeed": "285",
+    "GameName": "Venomancer",
+    "Health": "560",
+    "Intelligence": "17",
+    "theattributethatistheirmainone": "agi",
+    "AgiGain": "2.6",
+    "basearmor": "3.08",
+    "attacktime": "1.7",
+    "TrueName": "venomancer",
+    "dota_name": "Lesale Deathbringer"
+}, {
+    "basedmg": "18 - 29",
+    "StrGain": "1.85",
+    "IntGain": "1.65",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Ranged": "630"
+    },
+    "amp1": "1.1%",
+    "Mana": "254",
+    "magicres": "25%",
+    "Damage": "38-49",
+    "Agility": "20",
+    "Armor": "2",
+    "Strength": "17",
+    "BaseSpeed": "300",
+    "GameName": "Mirana",
+    "Health": "540",
+    "Intelligence": "17",
+    "theattributethatistheirmainone": "agi",
+    "AgiGain": "3.3",
+    "basearmor": "1.8",
+    "attacktime": "1.7",
+    "TrueName": "mirana",
+    "dota_name": "Princess of the Moon"
+}, {
+    "basedmg": "30 - 36",
+    "StrGain": "2.1",
+    "IntGain": "2",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Ranged": "140"
+    },
+    "amp1": "1.3%",
+    "Mana": "290",
+    "magicres": "25%",
+    "Damage": "53-59",
+    "Agility": "23",
+    "Armor": "4",
+    "Strength": "18",
+    "BaseSpeed": "305",
+    "GameName": "Templar Assassin",
+    "Health": "560",
+    "Intelligence": "20",
+    "theattributethatistheirmainone": "agi",
+    "AgiGain": "2.7",
+    "basearmor": "4.22",
+    "attacktime": "1.7",
+    "TrueName": "templar_assassin",
+    "dota_name": "Lanaya"
+}, {
+    "basedmg": "23 - 33 ",
+    "StrGain": "2.3",
+    "IntGain": "1.6",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Melee": "150"
+    },
+    "amp1": "1.4%",
+    "Mana": "326",
+    "magicres": "25%",
+    "Damage": "47 - 57",
+    "Agility": "14",
+    "Armor": "3",
+    "Strength": "24",
+    "BaseSpeed": "315",
+    "GameName": "Elder Titan",
+    "Health": "680",
+    "Intelligence": "23",
+    "theattributethatistheirmainone": "str",
+    "AgiGain": "1.8",
+    "basearmor": "2.96",
+    "attacktime": "1.7",
+    "TrueName": "elder_titan",
+    "dota_name": "Worldsmith"
+}, {
+    "basedmg": "15 - 21",
+    "StrGain": "1.6",
+    "IntGain": "1.55",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Ranged": "640"
+    },
+    "amp1": "1%",
+    "Mana": "242",
+    "magicres": "25%",
+    "Damage": "37-43",
+    "Agility": "22",
+    "Armor": "2",
+    "Strength": "15",
+    "BaseSpeed": "300",
+    "GameName": "Clinkz",
+    "Health": "500",
+    "Intelligence": "16",
+    "theattributethatistheirmainone": "agi",
+    "AgiGain": "3.3",
+    "basearmor": "2.08",
+    "attacktime": "1.7",
+    "TrueName": "clinkz",
+    "dota_name": "Bone Fletcher"
+}, {
+    "basedmg": "37 - 43",
+    "StrGain": "2.6",
+    "IntGain": "2.6",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Melee": "150"
+    },
+    "amp1": "1.1%",
+    "Mana": "254",
+    "magicres": "25%",
+    "Damage": "62-68",
+    "Agility": "12",
+    "Armor": "4",
+    "Strength": "25",
+    "BaseSpeed": "290",
+    "GameName": "Underlord",
+    "Health": "700",
+    "Intelligence": "17",
+    "theattributethatistheirmainone": "str",
+    "AgiGain": "1.3",
+    "basearmor": "3.68",
+    "attacktime": "1.7",
+    "TrueName": "abyssal_underlord",
+    "dota_name": "Vrogros"
+}, {
+    "basedmg": "20 - 26",
+    "StrGain": "2.2",
+    "IntGain": "1.85",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Ranged": "330"
+    },
+    "amp1": "1.%",
+    "Mana": "242",
+    "magicres": "25%",
+    "Damage": "38-44",
+    "Agility": "18",
+    "Armor": "3",
+    "Strength": "15",
+    "BaseSpeed": "335",
+    "GameName": "Luna",
+    "Health": "500",
+    "Intelligence": "16",
+    "theattributethatistheirmainone": "agi",
+    "AgiGain": "3.3",
+    "basearmor": "2.52",
+    "attacktime": "1.7",
+    "TrueName": "luna",
+    "dota_name": "Moon Rider"
+}, {
+    "basedmg": "29 - 36",
+    "StrGain": "2.9",
+    "IntGain": "1.25",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Melee": "150"
+    },
+    "amp1": "0.9%",
+    "Mana": "218",
+    "magicres": "25%",
+    "Damage": "52-59",
+    "Agility": "22",
+    "Armor": "2",
+    "Strength": "23",
+    "BaseSpeed": "300",
+    "GameName": "Brewmaster",
+    "Health": "660",
+    "Intelligence": "14",
+    "theattributethatistheirmainone": "str",
+    "AgiGain": "1.95",
+    "basearmor": "2.08",
+    "attacktime": "1.7",
+    "TrueName": "brewmaster",
+    "dota_name": "Mangix"
+}, {
+    "basedmg": "13 - 20",
+    "StrGain": "2.1",
+    "IntGain": "3.1",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Ranged": "425"
+    },
+    "amp1": "1.6%",
+    "Mana": "350",
+    "magicres": "25%",
+    "Damage": "38-45",
+    "Agility": "16",
+    "Armor": "1",
+    "Strength": "24",
+    "BaseSpeed": "285",
+    "GameName": "Winter Wyvern",
+    "Health": "680",
+    "Intelligence": "25",
+    "theattributethatistheirmainone": "int",
+    "AgiGain": "1.9",
+    "basearmor": "1.24",
+    "attacktime": "1.7",
+    "TrueName": "winter_wyvern",
+    "dota_name": "Auroth"
+}, {
+    "basedmg": "15 - 21",
+    "StrGain": "2",
+    "IntGain": "2",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Ranged": "500"
+    },
+    "amp1": "1.1%",
+    "Mana": "266",
+    "magicres": "25%",
+    "Damage": "35-41",
+    "Agility": "20",
+    "Armor": "1",
+    "Strength": "15",
+    "BaseSpeed": "315",
+    "GameName": "Shadow Fiend",
+    "Health": "500",
+    "Intelligence": "18",
+    "theattributethatistheirmainone": "agi",
+    "AgiGain": "2.9",
+    "basearmor": "0.8",
+    "attacktime": "1.7 ",
+    "TrueName": "nevermore",
+    "dota_name": "Nevermore"
+}, {
+    "basedmg": "13 - 23",
+    "StrGain": "1.8",
+    "IntGain": "2.1",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Ranged": "365"
+    },
+    "amp1": "1.2%",
+    "Mana": "278",
+    "magicres": "25%",
+    "Damage": "37-47",
+    "Agility": "24",
+    "Armor": "4",
+    "Strength": "18",
+    "BaseSpeed": "315",
+    "GameName": "Gyrocopter",
+    "Health": "560",
+    "Intelligence": "19",
+    "theattributethatistheirmainone": "agi",
+    "AgiGain": "2.8",
+    "basearmor": "4.36",
+    "attacktime": "1.7",
+    "TrueName": "gyrocopter",
+    "dota_name": "Aurel Vlaicu"
+}, {
+    "basedmg": "24 - 38",
+    "StrGain": "1.8",
+    "IntGain": "2",
+    "sightrange": {
+        "Night": "1000",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Melee": "150"
+    },
+    "amp1": "1.2%",
+    "Mana": "278",
+    "magicres": "25%",
+    "Damage": "45-59",
+    "Agility": "21",
+    "Armor": "6",
+    "Strength": "17",
+    "BaseSpeed": "315",
+    "GameName": "Bounty Hunter",
+    "Health": "540",
+    "Intelligence": "19",
+    "theattributethatistheirmainone": "agi",
+    "AgiGain": "3",
+    "basearmor": "5.94",
+    "attacktime": "1.7",
+    "TrueName": "bounty_hunter",
+    "dota_name": "Gondar"
+}, {
+    "basedmg": "22 - 32",
+    "StrGain": "1.5",
+    "IntGain": "2.8",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Ranged": "600"
+    },
+    "amp1": "1.3%",
+    "Mana": "302",
+    "magicres": "25%",
+    "Damage": "43-53",
+    "Agility": "15",
+    "Armor": "1",
+    "Strength": "23",
+    "BaseSpeed": "300",
+    "GameName": "Chen",
+    "Health": "660",
+    "Intelligence": "21",
+    "theattributethatistheirmainone": "int",
+    "AgiGain": "2.1",
+    "basearmor": "1.1",
+    "attacktime": "1.7",
+    "TrueName": "chen",
+    "dota_name": "Holy Knight"
+}, {
+    "basedmg": "25 - 33",
+    "StrGain": "1.7",
+    "IntGain": "2.5",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Ranged": "550"
+    },
+    "amp1": "1.5%",
+    "Mana": "338",
+    "magicres": "25%",
+    "Damage": "49-57",
+    "Agility": "18",
+    "Armor": "2",
+    "Strength": "16",
+    "BaseSpeed": "295",
+    "GameName": "Queen of Pain",
+    "Health": "520",
+    "Intelligence": "24",
+    "theattributethatistheirmainone": "int",
+    "AgiGain": "2",
+    "basearmor": "1.52",
+    "attacktime": "1.5",
+    "TrueName": "queenofpain",
+    "dota_name": "Akasha"
+}, {
+    "basedmg": "22 - 26",
+    "StrGain": "2",
+    "IntGain": "2.5",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Ranged": "550"
+    },
+    "amp1": "1.4%",
+    "Mana": "314",
+    "magicres": "25%",
+    "Damage": "44-48",
+    "Agility": "15",
+    "Armor": "3",
+    "Strength": "16",
+    "BaseSpeed": "285",
+    "GameName": "Necrophos",
+    "Health": "520",
+    "Intelligence": "22",
+    "theattributethatistheirmainone": "int",
+    "AgiGain": "1.2",
+    "basearmor": "3.1",
+    "attacktime": "1.7",
+    "TrueName": "necrolyte",
+    "dota_name": "Rotund'jere"
+}, {
+    "basedmg": "26 - 35",
+    "StrGain": "1.9",
+    "IntGain": "1.7",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Ranged": "575"
+    },
+    "amp1": "1.4%",
+    "Mana": "326",
+    "magicres": "25%",
+    "Damage": "43-52",
+    "Agility": "14",
+    "Armor": "0",
+    "Strength": "17",
+    "BaseSpeed": "300",
+    "GameName": "io",
+    "Health": "540",
+    "Intelligence": "23",
+    "theattributethatistheirmainone": "str",
+    "AgiGain": "1.6",
+    "basearmor": "-0.04",
+    "attacktime": "1.7",
+    "TrueName": "wisp",
+    "dota_name": "Wisp"
+}, {
+    "basedmg": "31 - 41",
+    "StrGain": "1",
+    "IntGain": "2.8",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Ranged": "550"
+    },
+    "amp1": "1.2%",
+    "Mana": "278",
+    "magicres": "25%",
+    "Damage": "50-60",
+    "Agility": "19",
+    "Armor": "1",
+    "Strength": "16",
+    "BaseSpeed": "340",
+    "GameName": "Enchantress",
+    "Health": "520",
+    "Intelligence": "19",
+    "theattributethatistheirmainone": "int",
+    "AgiGain": "1.8",
+    "basearmor": "0.66",
+    "attacktime": "1.7",
+    "TrueName": "enchantress",
+    "dota_name": "Aiushtha"
+}, {
+    "basedmg": "26 - 32",
+    "StrGain": "1.4",
+    "IntGain": "1.75",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Melee": "150"
+    },
+    "amp1": "1.2%",
+    "Mana": "278",
+    "magicres": "25%",
+    "Damage": "48-54",
+    "Agility": "22",
+    "Armor": "10",
+    "Strength": "15",
+    "BaseSpeed": "315",
+    "GameName": "Terrorblade",
+    "Health": "500",
+    "Intelligence": "19",
+    "theattributethatistheirmainone": "agi",
+    "AgiGain": "3.2",
+    "basearmor": "10.08",
+    "attacktime": "1.5",
+    "TrueName": "terrorblade",
+    "dota_name": "Demon Marauder"
+}, {
+    "basedmg": "23 - 25",
+    "StrGain": "2.3",
+    "IntGain": "1.8",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Ranged": "475"
+    },
+    "amp1": "1.2%",
+    "Mana": "278",
+    "magicres": "25%",
+    "Damage": "45-47",
+    "Agility": "22",
+    "Armor": "2",
+    "Strength": "21",
+    "BaseSpeed": "295",
+    "GameName": "Razor",
+    "Health": "620",
+    "Intelligence": "19",
+    "theattributethatistheirmainone": "agi",
+    "AgiGain": "2",
+    "basearmor": "2.08",
+    "attacktime": "1.7",
+    "TrueName": "razor",
+    "dota_name": "Lightning Revenant"
+}, {
+    "basedmg": "26 - 30",
+    "StrGain": "1.8",
+    "IntGain": "2.4",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Melee": "150"
+    },
+    "amp1": "1.3%",
+    "Mana": "302",
+    "magicres": "25%",
+    "Damage": "47-51",
+    "Agility": "16",
+    "Armor": "0",
+    "Strength": "21",
+    "BaseSpeed": "290",
+    "GameName": "Timbersaw",
+    "Health": "620",
+    "Intelligence": "21",
+    "theattributethatistheirmainone": "str",
+    "AgiGain": "1.3",
+    "basearmor": "0.24",
+    "attacktime": "1.7",
+    "TrueName": "shredder",
+    "dota_name": "Rizzrack"
+}, {
+    "basedmg": "25 - 35",
+    "StrGain": "2.9",
+    "IntGain": "2.4",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Melee": "150"
+    },
+    "amp1": "1.1%",
+    "Mana": "266",
+    "magicres": "25%",
+    "Damage": "46-56",
+    "Agility": "17",
+    "Armor": "3",
+    "Strength": "21",
+    "BaseSpeed": "290",
+    "GameName": "Earth Spirit",
+    "Health": "620",
+    "Intelligence": "18",
+    "theattributethatistheirmainone": "str",
+    "AgiGain": "1.5",
+    "basearmor": "3.38",
+    "attacktime": "1.7",
+    "TrueName": "earth_spirit",
+    "dota_name": "Kaolin"
+}, {
+    "basedmg": "32 - 44",
+    "StrGain": "2.9",
+    "IntGain": "1.65",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Melee": "150"
+    },
+    "amp1": "1.2%",
+    "Mana": "278",
+    "magicres": "25%",
+    "Damage": "53-65",
+    "Agility": "15",
+    "Armor": "4",
+    "Strength": "21",
+    "BaseSpeed": "315",
+    "GameName": "Magnus",
+    "Health": "620",
+    "Intelligence": "19",
+    "theattributethatistheirmainone": "str",
+    "AgiGain": "2.5",
+    "basearmor": "4.1",
+    "attacktime": "1.8",
+    "TrueName": "magnataur",
+    "dota_name": "Magnoceros"
+}, {
+    "basedmg": "32 - 34",
+    "StrGain": "4",
+    "IntGain": "1.6",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Melee": "150"
+    },
+    "amp1": "0.9%",
+    "Mana": "230",
+    "magicres": "25%",
+    "Damage": "55-57",
+    "Agility": "15",
+    "Armor": "2",
+    "Strength": "23",
+    "BaseSpeed": "300",
+    "GameName": "Centaur Warrunner",
+    "Health": "660",
+    "Intelligence": "15",
+    "theattributethatistheirmainone": "str",
+    "AgiGain": "1.6",
+    "basearmor": "2.1",
+    "attacktime": "1.7",
+    "TrueName": "centaur",
+    "dota_name": "Bradwarden"
+}, {
+    "basedmg": "4 - 8",
+    "StrGain": "1.6",
+    "IntGain": "1.3",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Melee": "150"
+    },
+    "amp1": "0.9%",
+    "Mana": "218",
+    "magicres": "25%",
+    "Damage": "38-42",
+    "Agility": "34",
+    "Armor": "5",
+    "Strength": "17",
+    "BaseSpeed": "290",
+    "GameName": "Riki",
+    "Health": "540",
+    "Intelligence": "14",
+    "theattributethatistheirmainone": "agi",
+    "AgiGain": "2.2",
+    "basearmor": "4.76",
+    "attacktime": "1.7",
+    "TrueName": "riki",
+    "dota_name": "Stealth Assassin"
+}, {
+    "basedmg": "21 - 29",
+    "StrGain": "2.3",
+    "IntGain": "2.7",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Ranged": "350"
+    },
+    "amp1": "1.3%",
+    "Mana": "290",
+    "magicres": "25%",
+    "Damage": "41-49",
+    "Agility": "11",
+    "Armor": "2",
+    "Strength": "19",
+    "BaseSpeed": "295",
+    "GameName": "Zeus",
+    "Health": "580",
+    "Intelligence": "20",
+    "theattributethatistheirmainone": "int",
+    "AgiGain": "1.2",
+    "basearmor": "1.54",
+    "attacktime": "1.7",
+    "TrueName": "zuus",
+    "dota_name": "Lord of Heaven"
+}, {
+    "basedmg": "26 - 33",
+    "StrGain": "1.8",
+    "IntGain": "3",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "amp1": "1.3%",
+    "Mana": "302",
+    "magicres": "25%",
+    "Damage": "59-72",
+    "Agility": "16",
+    "Armor": "2",
+    "Strength": "21",
+    "BaseSpeed": "285",
+    "GameName": "Shadow Shaman",
+    "Health": "620",
+    "Intelligence": "21",
+    "theattributethatistheirmainone": "int",
+    "AgiGain": "1.6",
+    "basearmor": "2.24",
+    "attacktime": "1.7",
+    "TrueName": "shadow_shaman",
+    "dota_name": "Rhasta",
+    "attackrange": {
+        "Ranged": "400"
+    }
+}, {
+    "basedmg": "21 - 31",
+    "StrGain": "2.4",
+    "IntGain": "2.5",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Ranged": "600"
+    },
+    "amp1": "1.5%",
+    "Mana": "338",
+    "magicres": "10%",
+    "Damage": "45-55",
+    "Agility": "11",
+    "Armor": "0",
+    "Strength": "22",
+    "BaseSpeed": "285",
+    "GameName": "Visage",
+    "Health": "640",
+    "Intelligence": "24",
+    "theattributethatistheirmainone": "int",
+    "AgiGain": "1.3",
+    "basearmor": "-0.46",
+    "attacktime": "1.7",
+    "TrueName": "visage",
+    "dota_name": "Bound Form of Necro'lic"
+}, {
+    "basedmg": "24 - 30",
+    "StrGain": "1.65",
+    "IntGain": "2.1",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Ranged": "600"
+    },
+    "amp1": "1.2%",
+    "Mana": "278",
+    "magicres": "25%",
+    "Damage": "44-50",
+    "Agility": "20",
+    "Armor": "2",
+    "Strength": "14",
+    "BaseSpeed": "290",
+    "GameName": "Medusa",
+    "Health": "480",
+    "Intelligence": "19",
+    "theattributethatistheirmainone": "agi",
+    "AgiGain": "2.5",
+    "basearmor": "1.8",
+    "attacktime": "1.7",
+    "TrueName": "medusa",
+    "dota_name": "Gorgon"
+}, {
+    "basedmg": "39 - 49",
+    "StrGain": "1.5",
+    "IntGain": "1.8",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Ranged": "425"
+    },
+    "amp1": "0.9%",
+    "Mana": "230",
+    "magicres": "25%",
+    "Damage": "50-60",
+    "Agility": "14",
+    "Armor": "1",
+    "Strength": "15",
+    "BaseSpeed": "285",
+    "GameName": "Weaver",
+    "Health": "500",
+    "Intelligence": "15",
+    "theattributethatistheirmainone": "agi",
+    "AgiGain": "2.8",
+    "basearmor": "0.96",
+    "attacktime": "1.8",
+    "TrueName": "weaver",
+    "dota_name": "Skitskurr"
+}, {
+    "basedmg": "62 - 70",
+    "StrGain": "3.3",
+    "IntGain": "1.8",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Melee": "150"
+    },
+    "amp1": "1.1%",
+    "Mana": "254",
+    "magicres": "25%",
+    "Damage": "87-95",
+    "Agility": "15",
+    "Armor": "1",
+    "Strength": "25",
+    "BaseSpeed": "295",
+    "GameName": "Treant Protector",
+    "Health": "700",
+    "Intelligence": "17",
+    "theattributethatistheirmainone": "str",
+    "AgiGain": "2",
+    "basearmor": "1.1",
+    "attacktime": "1.9",
+    "TrueName": "treant",
+    "dota_name": "Rooftrellen"
+}, {
+    "basedmg": "16 - 22",
+    "StrGain": "1.9",
+    "IntGain": "2.9",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Ranged": "620"
+    },
+    "amp1": "1.4%",
+    "Mana": "326",
+    "magicres": "25%",
+    "Damage": "39-45",
+    "Agility": "15",
+    "Armor": "2",
+    "Strength": "18",
+    "BaseSpeed": "305",
+    "GameName": "Oracle",
+    "Health": "560",
+    "Intelligence": "23",
+    "theattributethatistheirmainone": "int",
+    "AgiGain": "1.7",
+    "basearmor": "2.1",
+    "attacktime": "1.4",
+    "TrueName": "oracle",
+    "dota_name": "Nerif"
+}, {
+    "basedmg": "35 - 39",
+    "StrGain": "2.6",
+    "IntGain": "2.2",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Melee": "150"
+    },
+    "amp1": "1.3%",
+    "Mana": "290",
+    "magicres": "25%",
+    "Damage": "61-65",
+    "Agility": "18",
+    "Armor": "3",
+    "Strength": "26",
+    "BaseSpeed": "320",
+    "GameName": "Legion Commander",
+    "Health": "720",
+    "Intelligence": "20",
+    "theattributethatistheirmainone": "str",
+    "AgiGain": "1.7",
+    "basearmor": "2.52",
+    "attacktime": "1.7 ",
+    "TrueName": "legion_commander",
+    "dota_name": "Tresdin"
+}, {
+    "basedmg": "22 - 44",
+    "StrGain": "1.7",
+    "IntGain": "2",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Melee": "150"
+    },
+    "amp1": "1.3%",
+    "Mana": "302",
+    "magicres": "25%",
+    "Damage": "51-73",
+    "Agility": "29",
+    "Armor": "4",
+    "Strength": "21",
+    "BaseSpeed": "290",
+    "GameName": "Phantom Lancer",
+    "Health": "620",
+    "Intelligence": "21",
+    "theattributethatistheirmainone": "agi",
+    "AgiGain": "2.6",
+    "basearmor": "4.06",
+    "attacktime": "1.7",
+    "TrueName": "phantom_lancer",
+    "dota_name": "Azwraith"
+}, {
+    "basedmg": "26 - 36",
+    "StrGain": "3",
+    "IntGain": "1.5",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Melee": "150"
+    },
+    "amp1": "1.1%",
+    "Mana": "266",
+    "magicres": "25%",
+    "Damage": "50-60",
+    "Agility": "14",
+    "Armor": "4",
+    "Strength": "24",
+    "BaseSpeed": "300",
+    "GameName": "Kunkka",
+    "Health": "680",
+    "Intelligence": "18",
+    "theattributethatistheirmainone": "str",
+    "AgiGain": "1.3",
+    "basearmor": "3.96",
+    "attacktime": "1.7",
+    "TrueName": "kunkka",
+    "dota_name": "Admiral"
+}, {
+    "basedmg": "18 - 32",
+    "StrGain": "1.8",
+    "IntGain": "2.8",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Ranged": "600"
+    },
+    "amp1": "1.6%",
+    "Mana": "350",
+    "magicres": "25%",
+    "Damage": "43-50",
+    "Agility": "15",
+    "Armor": "1",
+    "Strength": "14",
+    "BaseSpeed": "335",
+    "GameName": "Keeper of the Light",
+    "Health": "480",
+    "Intelligence": "25",
+    "theattributethatistheirmainone": "int",
+    "AgiGain": "1.6",
+    "basearmor": "1.1",
+    "attacktime": "1.7",
+    "TrueName": "keeper_of_the_light",
+    "dota_name": "Ezalor"
+}, {
+    "basedmg": "23 - 25",
+    "StrGain": "2.5",
+    "IntGain": "2",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Melee": "150"
+    },
+    "amp1": "1.3%",
+    "Mana": "302",
+    "magicres": "25%",
+    "Damage": "44-46",
+    "Agility": "21",
+    "Armor": "6",
+    "Strength": "21",
+    "BaseSpeed": "320",
+    "GameName": "Naga Siren",
+    "Health": "620",
+    "Intelligence": "21",
+    "theattributethatistheirmainone": "agi",
+    "AgiGain": "2.75",
+    "basearmor": "5.94",
+    "attacktime": "1.7",
+    "TrueName": "naga_siren",
+    "dota_name": "Slithice"
+}, {
+    "basedmg": "27 - 31",
+    "StrGain": "1.9",
+    "IntGain": "2.7",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Ranged": "500"
+    },
+    "amp1": "1.4%",
+    "Mana": "326",
+    "magicres": "25%",
+    "Damage": "50-54",
+    "Agility": "18",
+    "Armor": "3",
+    "Strength": "17",
+    "BaseSpeed": "295",
+    "GameName": "Shadow Demon",
+    "Health": "540",
+    "Intelligence": "23",
+    "theattributethatistheirmainone": "int",
+    "AgiGain": "2.2",
+    "basearmor": "2.52",
+    "attacktime": "1.7",
+    "TrueName": "shadow_demon"
+}, {
+    "basedmg": "17 - 27",
+    "StrGain": "1.5",
+    "IntGain": "2.4",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "amp1": "1.7%",
+    "Mana": "374",
+    "magicres": "25%",
+    "Damage": "44-54",
+    "Agility": "14",
+    "Armor": "1",
+    "Strength": "19",
+    "BaseSpeed": "290",
+    "GameName": "Rubick",
+    "Health": "580",
+    "Intelligence": "27",
+    "theattributethatistheirmainone": "int",
+    "AgiGain": "1.6",
+    "basearmor": "0.96",
+    "attacktime": "1.7",
+    "TrueName": "rubick",
+    "dota_name": "Grand Magus",
+    "attackrange": {
+        "Ranged": 550
+    }
+}, {
+    "basedmg": "39 - 41",
+    "StrGain": "2.9",
+    "IntGain": "1.6",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Melee": "150"
+    },
+    "amp1": "1.1%",
+    "Mana": "266",
+    "magicres": "25%",
+    "Damage": "61-63",
+    "Agility": "18",
+    "Armor": "3",
+    "Strength": "22",
+    "BaseSpeed": "300",
+    "GameName": "Wraith King",
+    "Health": "640",
+    "Intelligence": "18",
+    "theattributethatistheirmainone": "str",
+    "AgiGain": "1.7",
+    "basearmor": "2.52",
+    "attacktime": "1.7",
+    "TrueName": "skeleton_king",
+    "dota_name": "Ostarion"
+}, {
+    "basedmg": "29 - 35",
+    "StrGain": "2.4",
+    "IntGain": "1.7",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Melee": "150"
+    },
+    "amp1": "1.1%",
+    "Mana": "266",
+    "magicres": "25%",
+    "Damage": "53-59",
+    "Agility": "24",
+    "Armor": "3",
+    "Strength": "23",
+    "BaseSpeed": "290",
+    "GameName": "Bloodseeker",
+    "Health": "660",
+    "Intelligence": "18",
+    "theattributethatistheirmainone": "agi",
+    "AgiGain": "3",
+    "basearmor": "3.36",
+    "attacktime": "1.7",
+    "TrueName": "bloodseeker",
+    "dota_name": "Strygwyr"
+}, {
+    "basedmg": "31 - 41",
+    "StrGain": "2.4",
+    "IntGain": "1.8",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Melee": "150"
+    },
+    "amp1": "0.9%",
+    "Mana": "218",
+    "magicres": "25%",
+    "Damage": "60-70",
+    "Agility": "17",
+    "Armor": "5",
+    "Strength": "29",
+    "BaseSpeed": "290",
+    "GameName": "Spirit Breaker",
+    "Health": "780",
+    "Intelligence": "14",
+    "theattributethatistheirmainone": "str",
+    "AgiGain": "1.7",
+    "basearmor": "5.38",
+    "attacktime": "1.9",
+    "TrueName": "spirit_breaker",
+    "dota_name": "Barathrum"
+}, {
+    "basedmg": "27 - 31",
+    "StrGain": "1.2",
+    "IntGain": "1.8",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Melee": "150"
+    },
+    "amp1": "0.9%",
+    "Mana": "230",
+    "magicres": "25%",
+    "Damage": "49-53",
+    "Agility": "22",
+    "Armor": "2",
+    "Strength": "22",
+    "BaseSpeed": "315",
+    "GameName": "Anti-Mage",
+    "Health": "640",
+    "Intelligence": "15",
+    "theattributethatistheirmainone": "agi",
+    "AgiGain": "2.8",
+    "basearmor": "2.08",
+    "attacktime": "1.45",
+    "TrueName": "antimage",
+    "dota_name": "Magina"
+}, {
+    "basedmg": "41 - 43",
+    "StrGain": "2.7",
+    "IntGain": "1.3",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Melee": "150"
+    },
+    "amp1": "1.%",
+    "Mana": "242",
+    "magicres": "25%",
+    "Damage": "64-66",
+    "Agility": "21",
+    "Armor": "5",
+    "Strength": "23",
+    "BaseSpeed": "290",
+    "GameName": "Sven",
+    "Health": "660",
+    "Intelligence": "16",
+    "theattributethatistheirmainone": "str",
+    "AgiGain": "2",
+    "basearmor": "4.94",
+    "attacktime": "1.7",
+    "TrueName": "sven",
+    "dota_name": "Rogue Knight"
+}, {
+    "basedmg": "26 - 32",
+    "StrGain": "2.5",
+    "IntGain": "2",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Melee": "150"
+    },
+    "amp1": "1.1%",
+    "Mana": "266",
+    "magicres": "25%",
+    "Damage": "44-50",
+    "Agility": "18",
+    "Armor": "3",
+    "Strength": "17",
+    "BaseSpeed": "295",
+    "GameName": "Broodmother",
+    "Health": "540",
+    "Intelligence": "18",
+    "theattributethatistheirmainone": "agi",
+    "AgiGain": "2.2",
+    "basearmor": "2.52",
+    "attacktime": "1.7",
+    "TrueName": "broodmother",
+    "dota_name": "Black Arachnia"
+}, {
+    "basedmg": "15 - 19",
+    "StrGain": "1.5",
+    "IntGain": "3",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Ranged": "600"
+    },
+    "amp1": "1.6%",
+    "Mana": "362",
+    "magicres": "25%",
+    "Damage": "41-45",
+    "Agility": "23",
+    "Armor": "3",
+    "Strength": "16",
+    "BaseSpeed": "325",
+    "GameName": "Leshrac",
+    "Health": "520",
+    "Intelligence": "26",
+    "theattributethatistheirmainone": "int",
+    "AgiGain": "1.7",
+    "basearmor": "3.22",
+    "attacktime": "1.7",
+    "TrueName": "leshrac",
+    "dota_name": "Tormented Soul"
+}, {
+    "basedmg": "29 - 39",
+    "StrGain": "2.7",
+    "IntGain": "2.6",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Ranged": "625"
+    },
+    "amp1": "1.5%",
+    "Mana": "338",
+    "magicres": "25%",
+    "Damage": "44-54",
+    "Agility": "15",
+    "Armor": "0",
+    "Strength": "24",
+    "BaseSpeed": "285",
+    "GameName": "Arc Warden",
+    "Health": "680",
+    "Intelligence": "24",
+    "theattributethatistheirmainone": "agi",
+    "AgiGain": "1.8",
+    "basearmor": "0.1",
+    "attacktime": "1.7",
+    "TrueName": "arc_warden",
+    "dota_name": "Zet"
+}, {
+    "basedmg": "25 - 31",
+    "StrGain": "3",
+    "IntGain": "1.7",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Melee": "150"
+    },
+    "amp1": "1.%",
+    "Mana": "242",
+    "magicres": "25%",
+    "Damage": "47-53",
+    "Agility": "15",
+    "Armor": "3",
+    "Strength": "22",
+    "BaseSpeed": "305",
+    "GameName": "Tidehunter",
+    "Health": "640",
+    "Intelligence": "16",
+    "theattributethatistheirmainone": "str",
+    "AgiGain": "1.5",
+    "basearmor": "3.1",
+    "attacktime": "1.7",
+    "TrueName": "tidehunter",
+    "dota_name": "Leviathan"
+}, {
+    "basedmg": "22 - 32",
+    "StrGain": "2.5",
+    "IntGain": "2.7",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Ranged": "600"
+    },
+    "amp1": "1.5%",
+    "Mana": "338",
+    "magicres": "25%",
+    "Damage": "46-55",
+    "Agility": "10",
+    "Armor": "2",
+    "Strength": "22",
+    "BaseSpeed": "300",
+    "GameName": "Warlock",
+    "Health": "640",
+    "Intelligence": "24",
+    "theattributethatistheirmainone": "int",
+    "AgiGain": "1",
+    "basearmor": "2.4",
+    "attacktime": "1.7",
+    "TrueName": "warlock",
+    "dota_name": "Demnok Lannik"
+}, {
+    "basedmg": "31 - 37",
+    "StrGain": "2.8",
+    "IntGain": "1.7",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Melee": "150"
+    },
+    "amp1": "0.9%",
+    "Mana": "230",
+    "magicres": "25%",
+    "Damage": "50-56",
+    "Agility": "19",
+    "Armor": "4",
+    "Strength": "19",
+    "BaseSpeed": "290",
+    "GameName": "Dragon Knight",
+    "Health": "580",
+    "Intelligence": "15",
+    "theattributethatistheirmainone": "str",
+    "AgiGain": "2.2",
+    "basearmor": "3.66",
+    "attacktime": "1.7",
+    "TrueName": "dragon_knight",
+    "dota_name": "Davion"
+}, {
+    "basedmg": "31 - 33",
+    "StrGain": "2.9",
+    "IntGain": "1.3",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Melee": "150"
+    },
+    "amp1": "1.1%",
+    "Mana": "254",
+    "magicres": "25%",
+    "Damage": "55-57",
+    "Agility": "13",
+    "Armor": "2",
+    "Strength": "24",
+    "BaseSpeed": "315",
+    "GameName": "Clockwerk",
+    "Health": "680",
+    "Intelligence": "17",
+    "theattributethatistheirmainone": "str",
+    "AgiGain": "2.3",
+    "basearmor": "1.82",
+    "attacktime": "1.7",
+    "TrueName": "rattletrap",
+    "dota_name": "Rattletrap"
+}, {
+    "basedmg": "27 - 31",
+    "StrGain": "2.7",
+    "IntGain": "1.5",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Melee": "150"
+    },
+    "amp1": "1.%",
+    "Mana": "242",
+    "magicres": "25%",
+    "Damage": "45-49",
+    "Agility": "18",
+    "Armor": "6",
+    "Strength": "23",
+    "BaseSpeed": "310",
+    "GameName": "Ursa",
+    "Health": "660",
+    "Intelligence": "16",
+    "theattributethatistheirmainone": "agi",
+    "AgiGain": "2.1",
+    "basearmor": "5.52",
+    "attacktime": "1.7",
+    "TrueName": "ursa",
+    "dota_name": "Ulfsaar"
+}, {
+    "basedmg": "37 - 43",
+    "StrGain": "3",
+    "IntGain": "1.6",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Melee": "150"
+    },
+    "amp1": "1.1%",
+    "Mana": "254",
+    "magicres": "25%",
+    "Damage": "63-69",
+    "Agility": "9",
+    "Armor": "0",
+    "Strength": "26",
+    "BaseSpeed": "285",
+    "GameName": "Tiny",
+    "Health": "720",
+    "Intelligence": "17",
+    "theattributethatistheirmainone": "str",
+    "AgiGain": "0.9",
+    "basearmor": "0.26",
+    "attacktime": "1.7",
+    "TrueName": "tiny",
+    "dota_name": "Stone Giant"
+}, {
+    "basedmg": "41 - 47",
+    "StrGain": "3.2",
+    "IntGain": "2",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Melee": "150"
+    },
+    "amp1": "1.1%",
+    "Mana": "254",
+    "magicres": "25%",
+    "Damage": "58-64",
+    "Agility": "14",
+    "Armor": "8",
+    "Strength": "23",
+    "BaseSpeed": "285",
+    "GameName": "Ogre Magi",
+    "Health": "660",
+    "Intelligence": "17",
+    "theattributethatistheirmainone": "int",
+    "AgiGain": "1.55",
+    "basearmor": "7.96",
+    "attacktime": "1.7",
+    "TrueName": "ogre_magi",
+    "dota_name": "Aggron Stonebreak"
+}, {
+    "basedmg": "27 - 31",
+    "StrGain": "1.9",
+    "IntGain": "2.5",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Ranged": "600"
+    },
+    "amp1": "1.4%",
+    "Mana": "314",
+    "magicres": "25%",
+    "Damage": "49-53",
+    "Agility": "15",
+    "Armor": "1",
+    "Strength": "19",
+    "BaseSpeed": "300",
+    "GameName": "Disruptor",
+    "Health": "580",
+    "Intelligence": "22",
+    "theattributethatistheirmainone": "int",
+    "AgiGain": "1.4",
+    "basearmor": "1.1",
+    "attacktime": "1.7",
+    "TrueName": "disruptor",
+    "dota_name": "Stormcrafter"
+}, {
+    "basedmg": "22 - 28",
+    "StrGain": "2.1",
+    "IntGain": "3.4",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Ranged": "500"
+    },
+    "amp1": "1.3%",
+    "Mana": "290",
+    "magicres": "25%",
+    "Damage": "42-48",
+    "Agility": "14",
+    "Armor": "4",
+    "Strength": "17",
+    "BaseSpeed": "300",
+    "GameName": "Enigma",
+    "Health": "540",
+    "Intelligence": "20",
+    "theattributethatistheirmainone": "int",
+    "AgiGain": "1",
+    "basearmor": "3.96",
+    "attacktime": "1.7",
+    "TrueName": "enigma"
+}, {
+    "basedmg": "30 - 38",
+    "StrGain": "2.8",
+    "IntGain": "1.5",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Melee": "150"
+    },
+    "amp1": "0.9%",
+    "Mana": "230",
+    "magicres": "25%",
+    "Damage": "51-59",
+    "Agility": "17",
+    "Armor": "5",
+    "Strength": "21",
+    "BaseSpeed": "290",
+    "GameName": "Slardar",
+    "Health": "620",
+    "Intelligence": "15",
+    "theattributethatistheirmainone": "str",
+    "AgiGain": "2.4",
+    "basearmor": "5.38",
+    "attacktime": "1.7",
+    "TrueName": "slardar",
+    "dota_name": "Slithereen Guard"
+}, {
+    "basedmg": "27 - 43",
+    "StrGain": "3.2",
+    "IntGain": "2.1",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Melee": "150"
+    },
+    "amp1": "0.8%",
+    "Mana": "206",
+    "magicres": "25%",
+    "Damage": "53-69",
+    "Agility": "11",
+    "Armor": "1",
+    "Strength": "26",
+    "BaseSpeed": "290",
+    "GameName": "Doom",
+    "Intelligence": "13",
+    "theattributethatistheirmainone": "str",
+    "AgiGain": "0.9",
+    "basearmor": "0.54",
+    "attacktime": "2",
+    "TrueName": "doom_bringer",
+    "dota_name": "Lucifer"
+}, {
+    "basedmg": "16 - 22",
+    "StrGain": "1.7",
+    "IntGain": "2.9",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Ranged": "600"
+    },
+    "amp1": "1.%",
+    "Mana": "242",
+    "magicres": "25%",
+    "Damage": "35-41",
+    "Agility": "16",
+    "Armor": "1",
+    "Strength": "16",
+    "BaseSpeed": "280",
+    "GameName": "Crystal Maiden",
+    "Health": "520",
+    "Intelligence": "16",
+    "theattributethatistheirmainone": "int",
+    "AgiGain": "1.6",
+    "basearmor": "1.24",
+    "attacktime": "1.7",
+    "TrueName": "crystal_maiden",
+    "dota_name": "Rylai"
+}, {
+    "basedmg": "31 - 37",
+    "StrGain": "2.3",
+    "IntGain": "2.7",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Melee": "150"
+    },
+    "amp1": "1.6%",
+    "Mana": "350",
+    "magicres": "25%",
+    "Damage": "58-64",
+    "Agility": "12",
+    "Armor": "7",
+    "Strength": "22",
+    "BaseSpeed": "295",
+    "GameName": "Dark Seer",
+    "Health": "640",
+    "Intelligence": "25",
+    "theattributethatistheirmainone": "int",
+    "AgiGain": "1.2",
+    "basearmor": "6.68",
+    "attacktime": "1.7",
+    "TrueName": "dark_seer",
+    "dota_name": "Ish'kafel"
+}, {
+    "basedmg": "27 - 37",
+    "StrGain": "1.8",
+    "IntGain": "2.9",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Ranged": "600"
+    },
+    "amp1": "1.5%",
+    "Mana": "338",
+    "magicres": "25%",
+    "Damage": "51-61",
+    "Agility": "13",
+    "Armor": "1",
+    "Strength": "16",
+    "BaseSpeed": "305",
+    "GameName": "Witch Doctor",
+    "Health": "520",
+    "Intelligence": "24",
+    "theattributethatistheirmainone": "int",
+    "AgiGain": "1.4",
+    "basearmor": "0.82",
+    "attacktime": "1.7",
+    "TrueName": "witch_doctor",
+    "dota_name": "Zharvakko"
+}, {
+    "basedmg": "12 - 22",
+    "StrGain": "1.5",
+    "IntGain": "3.6",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Ranged": "600"
+    },
+    "amp1": "1.7%",
+    "Mana": "374",
+    "magicres": "25%",
+    "Damage": "39-49",
+    "Agility": "13",
+    "Armor": "0",
+    "Strength": "19",
+    "BaseSpeed": "325",
+    "GameName": "Skywrath Mage",
+    "Health": "580",
+    "Intelligence": "27",
+    "theattributethatistheirmainone": "int",
+    "AgiGain": "0.8",
+    "basearmor": "-0.18",
+    "attacktime": "1.7",
+    "TrueName": "skywrath_mage",
+    "dota_name": "Dragonus"
+}, {
+    "basedmg": "19 - 25",
+    "StrGain": "1.9",
+    "IntGain": "4",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Ranged": "600"
+    },
+    "amp1": "1%",
+    "Mana": "242",
+    "magicres": "25%",
+    "Damage": "35-41",
+    "Agility": "14",
+    "Armor": "1",
+    "Strength": "17",
+    "BaseSpeed": "280",
+    "GameName": "Invoker",
+    "Health": "540",
+    "Intelligence": "16",
+    "theattributethatistheirmainone": "int",
+    "AgiGain": "1.9",
+    "basearmor": "0.96",
+    "attacktime": "1.7",
+    "TrueName": "invoker",
+    "dota_name": "Carl"
+}, {
+    "basedmg": "20-26",
+    "StrGain": "1.3",
+    "IntGain": "1.6",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Melee": "150"
+    },
+    "amp1": "1.3%",
+    "Mana": "290",
+    "magicres": "35%",
+    "Damage": "43-49",
+    "Agility": "23",
+    "Armor": "2",
+    "Strength": "23",
+    "BaseSpeed": "315",
+    "GameName": "Meepo",
+    "Health": "660",
+    "Intelligence": "20",
+    "theattributethatistheirmainone": "agi",
+    "AgiGain": "2.2",
+    "basearmor": "2.22",
+    "attacktime": "1.7",
+    "TrueName": "meepo",
+    "dota_name": "Geomancer"
+}, {
+    "basedmg": "24 - 33",
+    "StrGain": "1.55",
+    "IntGain": "3.25",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Ranged": "550"
+    },
+    "amp1": "1.1%",
+    "Mana": "266",
+    "magicres": "25%",
+    "Damage": "42-51",
+    "Agility": "15",
+    "Armor": "1",
+    "Strength": "18",
+    "BaseSpeed": "315",
+    "GameName": "Lich",
+    "Health": "560",
+    "Intelligence": "18",
+    "theattributethatistheirmainone": "int",
+    "AgiGain": "2",
+    "basearmor": "1.1",
+    "attacktime": "1.7",
+    "TrueName": "lich",
+    "dota_name": "Ethreain"
+}, {
+    "basedmg": "16 - 30",
+    "StrGain": "2.2",
+    "IntGain": "2.5",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Ranged": "600"
+    },
+    "amp1": "1.7%",
+    "Mana": "374",
+    "magicres": "25%",
+    "Damage": "43-57",
+    "Agility": "22",
+    "Armor": "2",
+    "Strength": "17",
+    "BaseSpeed": "295",
+    "GameName": "Silencer",
+    "Health": "540",
+    "Intelligence": "27",
+    "theattributethatistheirmainone": "int",
+    "AgiGain": "3",
+    "basearmor": "2.08",
+    "attacktime": "1.7",
+    "TrueName": "silencer",
+    "dota_name": "Nortrom"
+}, {
+    "basedmg": "14 - 29",
+    "StrGain": "2.3",
+    "IntGain": "2.7",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Ranged": "450"
+    },
+    "amp1": "1.6%",
+    "Mana": "362",
+    "magicres": "25%",
+    "Damage": "40-55",
+    "Agility": "24",
+    "Armor": "4",
+    "Strength": "19",
+    "BaseSpeed": "315",
+    "GameName": "Outworld Devourer",
+    "Health": "580",
+    "Intelligence": "26",
+    "theattributethatistheirmainone": "int",
+    "AgiGain": "2",
+    "basearmor": "3.86",
+    "attacktime": "1.7",
+    "TrueName": "obsidian_destroyer",
+    "dota_name": "Harbinger"
+}, {
+    "basedmg": "27 - 33",
+    "StrGain": "1.7",
+    "IntGain": "3",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Ranged": "600"
+    },
+    "amp1": "1.3%",
+    "Mana": "290",
+    "magicres": "25%",
+    "Damage": "47-53",
+    "Agility": "15",
+    "Armor": "1",
+    "Strength": "16",
+    "BaseSpeed": "290",
+    "GameName": "Lion",
+    "Health": "520",
+    "Intelligence": "20",
+    "theattributethatistheirmainone": "int",
+    "AgiGain": "1.5",
+    "basearmor": "1.1",
+    "attacktime": "1.7",
+    "TrueName": "lion",
+    "dota_name": "Demon Witch"
+}, {
+    "basedmg": "22 - 26",
+    "StrGain": "1.9",
+    "IntGain": "1.4",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Melee": "150"
+    },
+    "amp1": "0.9%",
+    "Mana": "218",
+    "magicres": "25%",
+    "Damage": "48-52",
+    "Agility": "26",
+    "Armor": "4",
+    "Strength": "20",
+    "BaseSpeed": "305",
+    "GameName": "Juggernaut",
+    "Health": "600",
+    "Intelligence": "14",
+    "theattributethatistheirmainone": "agi",
+    "AgiGain": "2.4",
+    "basearmor": "3.64",
+    "attacktime": "1.4",
+    "TrueName": "juggernaut",
+    "dota_name": "Yurnero"
+}, {
+    "basedmg": "32 - 42",
+    "StrGain": "2.7",
+    "IntGain": "2",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Melee": "150"
+    },
+    "amp1": "1.3%",
+    "Mana": "302",
+    "magicres": "25%",
+    "Damage": "55-65",
+    "Agility": "17",
+    "Armor": "1",
+    "Strength": "23",
+    "BaseSpeed": "310",
+    "GameName": "Abaddon",
+    "Health": "660",
+    "Intelligence": "21",
+    "theattributethatistheirmainone": "str",
+    "AgiGain": "1.5",
+    "basearmor": "1.38",
+    "attacktime": "1.7",
+    "TrueName": "abaddon",
+    "dota_name": "Lord of Avernus"
+}, {
+    "basedmg": "27 - 31",
+    "StrGain": "2.3",
+    "IntGain": "1.7",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Melee": "150"
+    },
+    "amp1": "1.1%",
+    "Mana": "266",
+    "magicres": "25%",
+    "Damage": "50-54",
+    "Agility": "23",
+    "Armor": "3",
+    "Strength": "23",
+    "BaseSpeed": "300",
+    "GameName": "Tusk",
+    "Health": "660",
+    "Intelligence": "18",
+    "theattributethatistheirmainone": "str",
+    "AgiGain": "2.1",
+    "basearmor": "3.22",
+    "attacktime": "1.7",
+    "TrueName": "tusk",
+    "dota_name": "Ymir"
+}, {
+    "basedmg": "22 - 26",
+    "StrGain": "2.1",
+    "IntGain": "1.4",
+    "sightrange": {
+        "Night": "800",
+        "Day": "1800"
+    },
+    "attackrange": {
+        "Ranged": "550"
+    },
+    "amp1": "0.8%",
+    "Mana": "206",
+    "magicres": "25%",
+    "Damage": "41-46",
+    "Agility": "24",
+    "Armor": "3",
+    "Strength": "17",
+    "BaseSpeed": "325",
+    "GameName": "Lone Druid",
+    "Health": "540",
+    "Intelligence": "13",
+    "theattributethatistheirmainone": "agi",
+    "AgiGain": "2.7",
+    "basearmor": "3.36",
+    "attacktime": "1.7",
+    "TrueName": "lone_druid",
+    "dota_name": "Sylla"
+}]
