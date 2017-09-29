@@ -202,8 +202,8 @@ namespace DotaBot.Util
 					.WithColor(new DiscordColor(53, 152, 219))
 					.WithThumbnailUrl($"https://api.opendota.com/apps/dota2/images/abilities/{hero.TrueName}_{ab.Name.ToLower().Replace(' ', '_').Replace("'", "")}_md.png")
 					.WithDescription(String.Join("\n", ab.Description))
-					.AddField($"<:manacost:298144629377990656> {ab.Manacost.Replace(" ", "/")}", ":b:laceholder", true)
-					.AddField($"<:cooldown:298144629369470976> {ab.Cooldown.Replace(" ", "/")}", "placeholder", true);
+					.AddField($"<:manacost:298144629377990656> {ab.Manacost.Replace(" ", "/")}", String.Join("\n", ab.Stats).Replace(" / ", "/"), true)
+					.AddField($"<:cooldown:298144629369470976> {ab.Cooldown.Replace(" ", "/")}", String.Join("\n", ab.Effects).Replace(" / ", "/"), true);
 
 
 
