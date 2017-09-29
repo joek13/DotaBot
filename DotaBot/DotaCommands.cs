@@ -47,7 +47,6 @@ namespace DotaBot
 				Discord.MessageReactionAdded -= DiscordMessageReactionAdded;
 				Discord.MessageReactionRemoved -= DiscordMessageReactionRemoved;
 
-				//var heroEmbed = Dota.MakeHeroEmbed(ctx, hero).GetAwaiter().GetResult();		
 				var id = ctx.Message.RespondAsync("", embed: await Dota.MakeHeroEmbed(ctx, hero)).GetAwaiter().GetResult().Id;
 				var initialMessage = await ctx.Channel.GetMessageAsync(id);
 
@@ -74,7 +73,7 @@ namespace DotaBot
 					if (e.User.IsBot) { return Task.Delay(0); }
 
 					
-
+					//im sure theres a better way to do this but for now its this
 					if (e.Emoji == DiscordEmoji.FromUnicode("🇶"))
 					{
 						e.Message.ModifyAsync("", embed: Dota.MakeAbilityEmbed(hero, "q").GetAwaiter().GetResult());
@@ -112,9 +111,9 @@ namespace DotaBot
 					return Task.Delay(0);
 				}
 			}
-			catch (Exception hnfex)
+			catch (HeroNotFoundException hnfex)
 			{
-				await ctx.Message.Channel.SendMessageAsync(hnfex.Message + "\n" + hnfex.StackTrace + "\n" + hnfex.InnerException);
+				await ctx.Message.Channel.SendMessageAsync(hnfex.Message);
 			}
 		}
 

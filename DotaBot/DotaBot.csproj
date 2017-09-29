@@ -1,15 +1,22 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <Optimize>True</Optimize>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <RootNamespace>DotaBot</RootNamespace>
+    <AssemblyName>DotaBot</AssemblyName>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <LangVersion>7.1</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="DSharpPlus" Version="3.1.2-beta-00268" />
-    <PackageReference Include="DSharpPlus.CommandsNext" Version="3.1.2-beta-00268" />
+    <PackageReference Include="DSharpPlus" Version="3.2.0-beta-00286" />
+    <PackageReference Include="DSharpPlus.CommandsNext" Version="3.2.0-beta-00286" />
     <PackageReference Include="DSharpPlus.Interactivity" Version="3.1.2-beta-00268" />
     <PackageReference Include="DSharpPlus.VoiceNext" Version="3.1.2-beta-00268" />
+    <PackageReference Include="Microsoft.NETCore.Targets" Version="2.0.0" />
   </ItemGroup>
 
 </Project>
