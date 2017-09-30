@@ -204,9 +204,6 @@ namespace DotaBot.Util
 					.WithDescription(String.Join("\n", ab.Description))
 					.AddField($"<:manacost:298144629377990656> {ab.Manacost.Replace(" ", "/")}", String.Join("\n", ab.Stats).Replace(" / ", "/"), true)
 					.AddField($"<:cooldown:298144629369470976> {ab.Cooldown.Replace(" ", "/")}", String.Join("\n", ab.Effects).Replace(" / ", "/"), true);
-
-
-
 				}
 			}
 

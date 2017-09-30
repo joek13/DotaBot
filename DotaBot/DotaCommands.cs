@@ -71,7 +71,11 @@ namespace DotaBot
 				{
 					Thread.Sleep(500);
 					if (e.User.IsBot) { return Task.Delay(0); }
-
+					if (e.User.Id != ctx.User.Id) 
+					{
+						e.Message.DeleteReactionAsync(e.Emoji, e.User);
+						return Task.Delay(0); 
+					}
 					
 					//im sure theres a better way to do this but for now its this
 					if (e.Emoji == DiscordEmoji.FromUnicode("🇶"))
