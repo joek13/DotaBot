@@ -62,6 +62,7 @@ namespace DotaBot
 		private Task DiscordClientErrored(ClientErrorEventArgs e)
 		{
 			Console.WriteLine(e.Exception.Message + "\n" + e.Exception.StackTrace + "\n" + e.Exception.InnerException);
+
 			return Task.Delay(0);
 		}
 	}

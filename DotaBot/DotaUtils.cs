@@ -92,6 +92,7 @@ namespace DotaBot.Util
 
 			return masterAbilities;
 		}
+
 		///<param name="steamID">Steam ID of the user.</param>
 		///<param name="amountOfHeroes">Amount of heroes' histories you want to return. Defaults to all if empty.</param>
 		public static async Task<History[]> GetHistory(long steamID, int amountOfHeroes = 112)
@@ -112,6 +113,7 @@ namespace DotaBot.Util
 
 			return masterHistory.SubArray(0, amountOfHeroes);
 		}
+
 		public static async Task<DiscordEmbed> MakeHeroEmbed(CommandContext ctx, Hero hero)
 		{
 			long steamID = new long();
@@ -119,7 +121,7 @@ namespace DotaBot.Util
 
 			List<Ability> heroAbilities = await GetAbilities(hero);
 
-			//find corresponding steamID
+			//find corresponding steamID using ID Dictionary
 			foreach (var id in IdDict)
 			{
 				if (id.Key == ctx.Message.Author.Id)

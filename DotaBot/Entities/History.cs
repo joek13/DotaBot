@@ -5,8 +5,8 @@ using Newtonsoft.Json;
 
 namespace DotaBot.Entities
 {
-    public class History
-    {
+	public class History
+	{
 		[JsonProperty("hero_id")]
 		public string HeroID { get; set; }
 

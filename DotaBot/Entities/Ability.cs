@@ -34,7 +34,7 @@ namespace DotaBot.Entities
 		[JsonProperty("Stats")]
 		public string[] Stats { get; set; }
 
-		[JsonProperty("Notes")]	
+		[JsonProperty("Notes")]
 		public string[] Notes { get; set; }
 	}
 

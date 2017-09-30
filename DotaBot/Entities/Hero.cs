@@ -11,31 +11,31 @@ namespace DotaBot.Entities
 
 		[JsonProperty("GameName")]
 		public string GameName { get; set; } //Phantom Assassin
-		
+
 		[JsonProperty("Damage")]
 		public string Damage { get; set; }
-		
+
 		[JsonProperty("Armor")]
 		public int Armor { get; set; }
-		
+
 		[JsonProperty("Health")]
 		public int Health { get; set; }
-		
+
 		[JsonProperty("Mana")]
 		public int Mana { get; set; }
-		
+
 		[JsonProperty("Strength")]
 		public int Strength { get; set; }
-		
+
 		[JsonProperty("StrGain")]
 		public double StrGain { get; set; }
-		
+
 		[JsonProperty("Agility")]
 		public int Agility { get; set; }
-		
+
 		[JsonProperty("AgiGain")]
 		public double AgiGain { get; set; }
-		
+
 		[JsonProperty("Intelligence")]
 		public int Intelligence { get; set; }
 
