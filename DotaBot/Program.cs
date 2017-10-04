@@ -47,7 +47,7 @@ namespace DotaBot
 		private Task DiscordReady(ReadyEventArgs e)
 		{
 			Console.WriteLine("Ready to 322 the game");
-			Discord.UpdateStatusAsync(new Game("DOTA 2"));
+			Discord.UpdateStatusAsync(new DiscordGame("DOTA 2"));
 
 			return Task.Delay(0);
 		}
