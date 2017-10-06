@@ -26,6 +26,16 @@ namespace DotaBot
 		[Command("Hero"), Description("Get's information about a Dota hero you ask for")]
 		public async Task Hero(CommandContext ctx, params string[] heroSearched)
 		{
+			Dictionary<string, DiscordEmoji> abilityMap = new Dictionary<string, DiscordEmoji>()
+			{
+				{"q", DiscordEmoji.FromUnicode("🇶") },
+				{"w", DiscordEmoji.FromUnicode("🇼") },
+				{"e", DiscordEmoji.FromUnicode("🇪") },
+				{"d", DiscordEmoji.FromUnicode("🇩") },
+				{"f", DiscordEmoji.FromUnicode("🇫") },
+				{"r", DiscordEmoji.FromUnicode("🇷") }
+			};
+
 			bool hasD = false;
 			bool hasF = false;
 

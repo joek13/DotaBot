@@ -76,7 +76,7 @@ namespace DotaBot
 				var stackTrace = ex.StackTrace;
 
 				message = (message.Length > 1000) ? message.Substring(0, 1000) : message;
-				stackTrace = (!String.IsNullOrWhiteSpace(stackTrace)) ? ((stackTrace.Length > 1000) ? stackTrace.Substring(0, 1000) : stackTrace) : "No stacktrace available";
+				stackTrace = (!string.IsNullOrWhiteSpace(stackTrace)) ? ((stackTrace.Length > 1000) ? stackTrace.Substring(0, 1000) : stackTrace) : "No stacktrace available";
 
 				var exEmbed = new DiscordEmbedBuilder
 				{
