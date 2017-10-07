@@ -26,14 +26,14 @@ namespace DotaBot
 		[Command("Hero"), Description("Get's information about a Dota hero you ask for")]
 		public async Task Hero(CommandContext ctx, params string[] heroSearched)
 		{
-			Dictionary<string, DiscordEmoji> abilityMap = new Dictionary<string, DiscordEmoji>()
+			Dictionary<string, DiscordEmoji> emojiMap = new Dictionary<string, DiscordEmoji>()
 			{
-				{"q", DiscordEmoji.FromUnicode("🇶") },
-				{"w", DiscordEmoji.FromUnicode("🇼") },
-				{"e", DiscordEmoji.FromUnicode("🇪") },
-				{"d", DiscordEmoji.FromUnicode("🇩") },
-				{"f", DiscordEmoji.FromUnicode("🇫") },
-				{"r", DiscordEmoji.FromUnicode("🇷") }
+				{ "q", DiscordEmoji.FromUnicode("🇶") },
+				{ "w", DiscordEmoji.FromUnicode("🇼") },
+				{ "e", DiscordEmoji.FromUnicode("🇪") },
+				{ "d", DiscordEmoji.FromUnicode("🇩") },
+				{ "f", DiscordEmoji.FromUnicode("🇫") },
+				{ "r", DiscordEmoji.FromUnicode("🇷") }
 			};
 
 			bool hasD = false;
@@ -77,51 +77,29 @@ namespace DotaBot
 			Discord.MessageReactionAdded += DiscordMessageReactionAdded;
 			Discord.MessageReactionRemoved += DiscordMessageReactionRemoved;
 
-			Task DiscordMessageReactionAdded(MessageReactionAddEventArgs e)
+			async Task DiscordMessageReactionAdded(MessageReactionAddEventArgs e)
 			{
-				if (e.User.IsBot) { return Task.Delay(0); }
+				if (e.User.IsBot) { return; }
 				if (e.User.Id != ctx.User.Id)
 				{
-					e.Message.DeleteReactionAsync(e.Emoji, e.User);
-					return Task.Delay(0);
+					await e.Message.DeleteReactionAsync(e.Emoji, e.User);
+					return;
 				}
 
-				//im sure theres a better way to do this but for now its this
-				if (e.Emoji == DiscordEmoji.FromUnicode("🇶"))
+				foreach (var kvp in emojiMap)
 				{
-					e.Message.ModifyAsync("", embed: Dota.MakeAbilityEmbed(hero, "q").GetAwaiter().GetResult());
+					if (kvp.Value == e.Emoji)
+					{
+						await e.Message.ModifyAsync("", embed: await Dota.MakeAbilityEmbed(hero, kvp.Key));
+					}
 				}
-				if (e.Emoji == DiscordEmoji.FromUnicode("🇼"))
-				{
-					e.Message.ModifyAsync("", embed: Dota.MakeAbilityEmbed(hero, "w").GetAwaiter().GetResult());
-				}
-				if (e.Emoji == DiscordEmoji.FromUnicode("🇪"))
-				{
-					e.Message.ModifyAsync("", embed: Dota.MakeAbilityEmbed(hero, "e").GetAwaiter().GetResult());
-				}
-				if (e.Emoji == DiscordEmoji.FromUnicode("🇷"))
-				{
-					e.Message.ModifyAsync("", embed: Dota.MakeAbilityEmbed(hero, "r").GetAwaiter().GetResult());
-				}
-				if (e.Emoji == DiscordEmoji.FromUnicode("🇫"))
-				{
-					e.Message.ModifyAsync("", embed: Dota.MakeAbilityEmbed(hero, "f").GetAwaiter().GetResult());
-				}
-				if (e.Emoji == DiscordEmoji.FromUnicode("🇩"))
-				{
-					e.Message.ModifyAsync("", embed: Dota.MakeAbilityEmbed(hero, "d").GetAwaiter().GetResult());
-				}
-
-				return Task.Delay(0);
 			}
 
-			Task DiscordMessageReactionRemoved(MessageReactionRemoveEventArgs e)
+			async Task DiscordMessageReactionRemoved(MessageReactionRemoveEventArgs e)
 			{
-				if (e.User.IsBot) { return Task.Delay(0); }
+				if (e.User.IsBot) { return; }
 
-				e.Message.ModifyAsync("", embed: Dota.MakeHeroEmbed(ctx, hero).GetAwaiter().GetResult());
-
-				return Task.Delay(0);
+				await e.Message.ModifyAsync("", embed: await Dota.MakeHeroEmbed(ctx, hero));
 			}
 		}
 	}
