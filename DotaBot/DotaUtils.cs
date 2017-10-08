@@ -206,9 +206,10 @@ namespace DotaBot.Util
 					abilityEmbed = new DiscordEmbedBuilder()
 					{
 						Color = new DiscordColor(53, 152, 219),
+						ThumbnailUrl = $"https://api.opendota.com/apps/dota2/images/abilities/{hero.TrueName}_{ab.Name.ToLower().Replace(' ', '_').Replace("'", "")}_md.png",
 						Description = string.Join("\n", ab.Description)
 					};
-					abilityEmbed.WithAuthor($"{key.ToUpper()} - {ab.Name}", null, $"https://api.opendota.com/apps/dota2/images/abilities/{hero.TrueName}_{ab.Name.ToLower().Replace(' ', '_').Replace("'", "")}_md.png")
+					abilityEmbed.WithAuthor($"{key.ToUpper()} - {ab.Name}")
 						.AddField($"<:manacost:298144629377990656> {ab.Manacost.Replace(" ", "/")}", String.Join("\n", ab.Stats).Replace(" / ", "/"), true)
 						.AddField($"<:cooldown:298144629369470976> {ab.Cooldown.Replace(" ", "/")}", String.Join("\n", ab.Effects).Replace(" / ", "/"), true);
 				}

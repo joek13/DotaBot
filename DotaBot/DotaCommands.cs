@@ -36,12 +36,14 @@ namespace DotaBot
 				{ "r", DiscordEmoji.FromUnicode("🇷") }
 			};
 
-			bool hasD = false;
-			bool hasF = false;
-
 			Hero hero = Dota.FindHero(heroSearched);
 			var heroAbs = await Dota.GetAbilities(hero);
 
+			Discord.MessageReactionAdded -= DiscordMessageReactionAdded;
+			Discord.MessageReactionRemoved -= DiscordMessageReactionRemoved;
+
+			bool hasD = false;
+			bool hasF = false;
 			foreach (Ability ab in heroAbs)
 			{
 				if (ab.Key == "d")
@@ -54,25 +56,20 @@ namespace DotaBot
 				}
 			}
 
-			Discord.MessageReactionAdded -= DiscordMessageReactionAdded;
-			Discord.MessageReactionRemoved -= DiscordMessageReactionRemoved;
-
-			var id = ctx.Message.RespondAsync("", embed: await Dota.MakeHeroEmbed(ctx, hero)).GetAwaiter().GetResult().Id;
-			var initialMessage = await ctx.Channel.GetMessageAsync(id);
-
-			await initialMessage.CreateReactionAsync(DiscordEmoji.FromUnicode("🇶"));
-			await initialMessage.CreateReactionAsync(DiscordEmoji.FromUnicode("🇼"));
-			await initialMessage.CreateReactionAsync(DiscordEmoji.FromUnicode("🇪"));
+			ulong dotaResponseId = ctx.Message.RespondAsync("", embed: await Dota.MakeHeroEmbed(ctx, hero)).GetAwaiter().GetResult().Id;
+			DiscordMessage dotaResponse = await ctx.Channel.GetMessageAsync(dotaResponseId);
+			await dotaResponse.CreateReactionAsync(DiscordEmoji.FromUnicode("🇶"));
+			await dotaResponse.CreateReactionAsync(DiscordEmoji.FromUnicode("🇼"));
+			await dotaResponse.CreateReactionAsync(DiscordEmoji.FromUnicode("🇪"));
 			if (hasD)
 			{
-				await initialMessage.CreateReactionAsync(DiscordEmoji.FromUnicode("🇩"));
+				await dotaResponse.CreateReactionAsync(DiscordEmoji.FromUnicode("🇩"));
 			}
 			if (hasF)
 			{
-				await initialMessage.CreateReactionAsync(DiscordEmoji.FromUnicode("🇫"));
-
+				await dotaResponse.CreateReactionAsync(DiscordEmoji.FromUnicode("🇫"));
 			}
-			await initialMessage.CreateReactionAsync(DiscordEmoji.FromUnicode("🇷"));
+			await dotaResponse.CreateReactionAsync(DiscordEmoji.FromUnicode("🇷"));
 
 			Discord.MessageReactionAdded += DiscordMessageReactionAdded;
 			Discord.MessageReactionRemoved += DiscordMessageReactionRemoved;
@@ -80,6 +77,8 @@ namespace DotaBot
 			async Task DiscordMessageReactionAdded(MessageReactionAddEventArgs e)
 			{
 				if (e.User.IsBot) { return; }
+				if (e.Channel.LastMessageId != e.Message.Id) { return; }
+
 				if (e.User.Id != ctx.User.Id)
 				{
 					await e.Message.DeleteReactionAsync(e.Emoji, e.User);
@@ -98,6 +97,7 @@ namespace DotaBot
 			async Task DiscordMessageReactionRemoved(MessageReactionRemoveEventArgs e)
 			{
 				if (e.User.IsBot) { return; }
+				if (e.Channel.LastMessageId != e.Message.Id) { return; }
 
 				await e.Message.ModifyAsync("", embed: await Dota.MakeHeroEmbed(ctx, hero));
 			}

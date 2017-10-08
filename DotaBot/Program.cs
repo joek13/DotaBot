@@ -50,7 +50,6 @@ namespace DotaBot
 
 		static async Task CommandsModule_CommandErrored(CommandErrorEventArgs e)
 		{
-
 			if (e.Exception is CommandNotFoundException) { return; }
 
 			if (e.Exception is HeroNotFoundException)
@@ -100,7 +99,18 @@ namespace DotaBot
 
 		static Task DiscordClientErrored(ClientErrorEventArgs e)
 		{
-			Console.WriteLine(e.Exception.Message + "\n" + e.Exception.StackTrace + "\n" + e.Exception.InnerException);
+			List<Exception> exceptions = new List<Exception>();
+			if (e.Exception is AggregateException ag)
+			{
+				exceptions.AddRange(ag.InnerExceptions);
+			}
+
+			exceptions.Add(e.Exception);
+			foreach (var exception in exceptions)
+			{
+				Console.WriteLine(exception.Message + "\n" + exception.StackTrace);
+			}
+
 			return Task.Delay(0);
 		}
 	}
