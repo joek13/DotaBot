@@ -21,7 +21,7 @@ namespace DotaBot.Util
 			Hero[] heroList = JsonConvert.DeserializeObject<Hero[]>(File.ReadAllText("./Json/heroes.json"));
 			Hero[] heroList2 = JsonConvert.DeserializeObject<Hero[]>(File.ReadAllText("./Json/heroes2.json"));
 			Dictionary<string, string[]> shortHeroList = JsonConvert.DeserializeObject<Dictionary<string, string[]>>(File.ReadAllText("./Json/shortHeroes.json"));
-			string heroToFind = String.Join(" ", heroToFindArgs).ToLower();
+			string heroToFind = string.Join(" ", heroToFindArgs).ToLower();
 
 			Hero heroObj = null;
 			Hero heroObj2 = null;
@@ -41,7 +41,7 @@ namespace DotaBot.Util
 				}
 			}
 			//if the hero's name wasnt found, throws exception
-			if (!heroFound) throw new HeroNotFoundException("That hero doesn't exist or wasn't found. Check your spelling and/or stop being a fucking retard");
+			if (!heroFound) { throw new HeroNotFoundException("That hero doesn't exist or wasn't found. Check your spelling and/or stop being a fucking retard"); }
 
 			//find hero object 1 (this one has most of the stats)
 			foreach (Hero hero in heroList)
@@ -79,7 +79,6 @@ namespace DotaBot.Util
 			List<Ability> masterAbilities = new List<Ability>();
 			string[] order = { "q", "w", "e", "d", "f", "r" };
 
-
 			foreach (Ability ability in abilities)
 			{
 				if (ability.Hero == hero.TrueName)
@@ -87,6 +86,8 @@ namespace DotaBot.Util
 					masterAbilities.Add(ability);
 				}
 			}
+
+			await Task.Delay(1);
 
 			masterAbilities.Sort((a, b) => Array.IndexOf(order, a.Key).CompareTo(Array.IndexOf(order, b.Key)));
 
@@ -163,20 +164,22 @@ namespace DotaBot.Util
 				}
 			}
 
-			if (hero.MainAttribute == "strength") strMark = "**";
-			if (hero.MainAttribute == "agility") agiMark = "**";
-			if (hero.MainAttribute == "intelligence") intMark = "**";
+			if (hero.MainAttribute == "strength") { strMark = "**"; }
+			if (hero.MainAttribute == "agility") { agiMark = "**"; }
+			if (hero.MainAttribute == "intelligence") { intMark = "**"; }
 			hero.AttackType = (hero.AttackType == "ranged") ? "Ranged" : "Melee";
 
-			var heroEmbed = new DiscordEmbedBuilder();
+			var heroEmbed = new DiscordEmbedBuilder()
+			{
+				Color = new DiscordColor(53, 152, 219),
+				ThumbnailUrl = $"https://api.opendota.com/apps/dota2/images/heroes/{hero.TrueName}_full.png"
+			};
 			heroEmbed.WithAuthor(hero.GameName, hero.Url, $"https://api.opendota.com/apps/dota2/images/heroes/{hero.TrueName}_icon.png")
-			.WithColor(new DiscordColor(53, 152, 219))
-			.WithThumbnailUrl($"https://api.opendota.com/apps/dota2/images/heroes/{hero.TrueName}_full.png")
-			.AddField("Base Stats", $"HP: {hero.Health}\nMana: {hero.Mana}\nDamage: {hero.Damage}\nArmor: {hero.Armor}\n<:strength:298134111908790274>{hero.Strength} {strMark}Strength{strMark} + {hero.StrGain}\n<:agility:298134111988482048>{hero.Agility} " +
-				$"{agiMark}Agility{agiMark} + {hero.AgiGain}\n<:intelligence:298134111610994690>{hero.Intelligence} {intMark}Intelligence{intMark} + {hero.IntGain}\n<:RUN:299695228233842689>{hero.BaseSpeed} MS", true)
-			.AddField("Roles", $"**{hero.AttackType}**\n{roleString}", true)
-			.AddField("Abilities", abilityString, false)
-			.AddField("Your History", historyString, false);
+				.AddField("Base Stats", $"HP: {hero.Health}\nMana: {hero.Mana}\nDamage: {hero.Damage}\nArmor: {hero.Armor}\n<:strength:298134111908790274>{hero.Strength} {strMark}Strength{strMark} + {hero.StrGain}\n<:agility:298134111988482048>{hero.Agility} " +
+					$"{agiMark}Agility{agiMark} + {hero.AgiGain}\n<:intelligence:298134111610994690>{hero.Intelligence} {intMark}Intelligence{intMark} + {hero.IntGain}\n<:RUN:299695228233842689>{hero.BaseSpeed} MS", true)
+				.AddField("Roles", $"**{hero.AttackType}**\n{roleString}", true)
+				.AddField("Abilities", abilityString, false)
+				.AddField("Your History", historyString, false);
 
 			return heroEmbed.Build();
 		}
@@ -184,8 +187,9 @@ namespace DotaBot.Util
 		public static async Task<DiscordEmbed> MakeAbilityEmbed(Hero hero, string key)
 		{
 			var abilities = await Dota.GetAbilities(hero);
-			var abilityEmbed = new DiscordEmbedBuilder();
 			var regex = new Regex(@"/ /g", RegexOptions.IgnorePatternWhitespace);
+			DiscordEmbedBuilder abilityEmbed = null;
+
 			foreach (Ability ab in abilities)
 			{
 				if (ab.Key == key)
@@ -198,14 +202,15 @@ namespace DotaBot.Util
 					{
 						ab.Cooldown = "None";
 					}
-					string ds = $"https://api.opendota.com/apps/dota2/images/abilities/{hero.TrueName}_{ab.Name.ToLower().Replace(' ', '_')}md.png";
-					//$"https://api.opendota.com/apps/dota2/images/abilities/{hero.TrueName}_{ab.Name.replace(/ /g_md.png"
-					abilityEmbed.WithAuthor($"{key.ToUpper()} - {ab.Name}")
-					.WithColor(new DiscordColor(53, 152, 219))
-					.WithThumbnailUrl($"https://api.opendota.com/apps/dota2/images/abilities/{hero.TrueName}_{ab.Name.ToLower().Replace(' ', '_').Replace("'", "")}_md.png")
-					.WithDescription(String.Join("\n", ab.Description))
-					.AddField($"<:manacost:298144629377990656> {ab.Manacost.Replace(" ", "/")}", String.Join("\n", ab.Stats).Replace(" / ", "/"), true)
-					.AddField($"<:cooldown:298144629369470976> {ab.Cooldown.Replace(" ", "/")}", String.Join("\n", ab.Effects).Replace(" / ", "/"), true);
+
+					abilityEmbed = new DiscordEmbedBuilder()
+					{
+						Color = new DiscordColor(53, 152, 219),
+						Description = string.Join("\n", ab.Description)
+					};
+					abilityEmbed.WithAuthor($"{key.ToUpper()} - {ab.Name}", null, $"https://api.opendota.com/apps/dota2/images/abilities/{hero.TrueName}_{ab.Name.ToLower().Replace(' ', '_').Replace("'", "")}_md.png")
+						.AddField($"<:manacost:298144629377990656> {ab.Manacost.Replace(" ", "/")}", String.Join("\n", ab.Stats).Replace(" / ", "/"), true)
+						.AddField($"<:cooldown:298144629369470976> {ab.Cooldown.Replace(" ", "/")}", String.Join("\n", ab.Effects).Replace(" / ", "/"), true);
 				}
 			}
 
@@ -228,6 +233,7 @@ namespace DotaBot.Util
 		{
 			T[] result = new T[length];
 			Array.Copy(data, index, result, 0, length);
+
 			return result;
 		}
 	}

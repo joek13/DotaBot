@@ -14,12 +14,14 @@ namespace DotaBot
 	public class Program
 	{
 		public static DiscordClient Discord;
-		public CommandsNextModule CommandsModule;
+		public static CommandsNextModule CommandsModule;
 
 		static void Main(string[] args)
-			=> new Program().RunMrBot(args).ConfigureAwait(false).GetAwaiter().GetResult();
+		{
+			RunMrBot(args).ConfigureAwait(false).GetAwaiter().GetResult();
+		}
 
-		private async Task RunMrBot(string[] args)
+		private static async Task RunMrBot(string[] args)
 		{
 			DiscordConfiguration discordConfig = new DiscordConfiguration
 			{
@@ -38,9 +40,7 @@ namespace DotaBot
 			CommandsModule.RegisterCommands<DotaCommands>();
 			CommandsModule.CommandErrored += CommandsModule_CommandErrored;
 
-
 			Discord.Ready += DiscordReady;
-			Discord.MessageCreated += DiscordMessageCreated;
 			Discord.ClientErrored += DiscordClientErrored;
 
 
@@ -89,30 +89,18 @@ namespace DotaBot
 					.AddField("Message", message, false)
 					.AddField("Stack Trace", $"```cs\n{stackTrace}\n```", false);
 				await e.Context.Channel.SendMessageAsync("", embed: exEmbed.Build());
-
 			}
-
 		}
 
-		private Task DiscordReady(ReadyEventArgs e)
+		static async Task DiscordReady(ReadyEventArgs e)
 		{
 			Console.WriteLine("Ready to 322 the game");
-			Discord.UpdateStatusAsync(new DiscordGame("DOTA 2"));
-
-			return Task.Delay(0);
+			await Discord.UpdateStatusAsync(new DiscordGame("DOTA 2"));
 		}
 
-		private Task DiscordMessageCreated(MessageCreateEventArgs e)
-		{
-			if (e.Message.Author.IsBot) return Task.Delay(0);
-
-			return Task.Delay(0);
-		}
-
-		private Task DiscordClientErrored(ClientErrorEventArgs e)
+		static Task DiscordClientErrored(ClientErrorEventArgs e)
 		{
 			Console.WriteLine(e.Exception.Message + "\n" + e.Exception.StackTrace + "\n" + e.Exception.InnerException);
-
 			return Task.Delay(0);
 		}
 	}
